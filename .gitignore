@@ -6,3 +6,4 @@
 *.txt
 push.sh
 *.zip
+.gitignore

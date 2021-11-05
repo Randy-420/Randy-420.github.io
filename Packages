@@ -1,4 +1,4 @@
-Package: com.randy420.aptfix
+Package: com.randy420.fixcydia
 Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: Randy420
@@ -6,9 +6,9 @@ Installed-Size: 264
 Depends: mobilesubstrate, com.randy420.tools (>=1.7)
 Filename: ./debs/fixCydia.deb
 Size: 8738
-MD5sum: ff1faf784db23fc1483696946d2660d5
-SHA1: 423d3bab295584710f1aa0dccf741404cd10f6f9
-SHA256: ba041967afcd208b4c1ca58d6bafbc9048b79ab6c5f01441db095e9cc270c8d4
+MD5sum: 7926170223dd276bc4a3d8c5489a3c73
+SHA1: 485d026a7099ab906a831b2c2e6d59539cb39a8a
+SHA256: dc6a6f5950827f7b0ec9e55a51024e7d745d82e42ea409e1147353c54089f272
 Section: Utilities
 Description: https://Randy-420.GitHub.io/depic/fixCydia.html
 Author: Randy420
