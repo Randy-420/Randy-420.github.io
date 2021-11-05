@@ -1,0 +1,91 @@
+Package: com.randy420.tools
+Name: 420 Tools 
+Version: 1.6
+Size: 952374
+Architecture: iphoneos-arm
+Maintainer: Randy-420 <randy.skinner26@gmail.com>
+Author: Randy-420 <randy.skinner26@gmail.com>
+Depends: ws.hbang.common
+Section: System
+MD5sum: b9f41274f216eedad26b92670b26fb8b
+SHA1sum: e297372f924b7bf2a7828b5e9cddcead3d6004be
+SHA256sum: a69c68c9c72f5cdc91d2bbba36f554448c998eab2638420a98385a873b5994b6
+Filename: debs//420Tools.deb
+Depiction: https://Randy-420.github.io/depic/420Tools.html
+
+Package: com.randy420.fixcydia
+Name: fixCydia
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Randy-420 <randy.skinner26@gmail.com>
+Author: Randy-420 <randy.skinner26@gmail.com>
+Depends: mobilesubstrate, com.randy420.tools (>=1.6)
+Section: Utilities
+Filename: debs//fixCydia.deb
+Size: 8680
+MD5sum: c4c794f54f2be21da822e569f818954d
+SHA1sum: e6f2a100844da2b1feb930b38ca13fc0aee13a33
+SHA256sum: 59c9cd19c49fa95db1fb5448bc7ca6581b06e0f5b0951dc50ca345329b973caa
+Depiction: https://Randy-420.github.io/depic/fixCydia.html
+
+Package: ru.rj.ftt
+Name: Flex To Theos
+Version: 0.3.8
+Architecture: iphoneos-arm
+Maintainer: Randy-420 <randy.skinner26@gmail.com>
+Author: Randy-420 <randy.skinner26@gmail.com>
+Depends: mobilesubstrate, ws.hbang.common, com.randy420.tools (>=1.6)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Section: Utilities
+Filename: debs//ftt.deb
+Size: 43042
+MD5sum: ff812f96422cb6973646770799edc216
+SHA1sum: 53d4ae45e0086aa6c576e8478c8b6c9c5485bab8
+SHA256sum: 6410cc3d9a7ce5f000b05320c778c05f394dc02fc36406f0e79da2aa24ec16bc
+
+Package: com.randy420.rr
+Name: Remove Russian Language
+Version: 0.1.5
+Architecture: iphoneos-arm
+Maintainer: Randy-420 <randy.skinner26@gmail.com>
+Author: Randy-420 <randy.skinner26@gmail.com>
+ Depends: mobilesubstrate, ws.hbang.common, com.randy420.tools (>=1.3)
+Section: Utilities
+Filename: debs//rr.deb
+Size: 24442
+MD5sum: f9a6b9769ec9a0644f7a30ddb7b153ad
+SHA1sum: ce62bef62b5eda10b534274d431554c97e8d46f4
+SHA256sum: 4ee8388f8f72ad6ad7fbfe116f48f4a3e65f2b6d71984b7a0a43f5dcbfa63a76
+Depiction: https://Randy-420.github.io/depic/rr.html
+
+Package: com.randy420.tai
+Name: Theos Auto Installer
+Version: 5.1.6
+Architecture: iphoneos-arm
+Maintainer: Randy-420 <randy.skinner26@gmail.com>
+Author: Randy-420 <randy.skinner26@gmail.com>
+Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 1.3), ws.hbang.common, mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
+ Conflicts: net.howett.theos, com.randy420.encrypt
+Section: System
+Filename: debs//tai.deb
+Size: 36876
+MD5sum: f638330fbeca9b22eafee76995f5b885
+SHA1sum: cebe387c92029b877983e9ae3520c3696641a230
+SHA256sum: 748c5d4e4b39ff0b6481be4434b977abbec78011f79e5328a2a2de1939d79ae0
+Depiction: https://Randy-420.github.io/depic/tai.html
+
+Package: com.volumestep.randy420
+Name: volumeStep
+Version: 0.1.9
+Architecture: iphoneos-arm
+Maintainer: Randy-420 <randy.skinner26@gmail.com>
+Author: Randy-420 <randy.skinner26@gmail.com>
+Depends: mobilesubstrate, ws.hbang.common, com.randy420.tools (>=1.3)
+Section: Tweaks
+Filename: debs//volumeStep.deb
+Size: 30128
+MD5sum: 90b5142bd62ffa861a6a4d0eb7f6c921
+SHA1sum: d92ae97b0ba23b7286c79958ebb1a3137f6ba334
+SHA256sum: 6598bacf37cfce84c9ee170b190904064d914a75c4690fe480c46c5dbe391b2f
+Depiction: https://Randy-420.github.io/depic/volumeStep.html
+
