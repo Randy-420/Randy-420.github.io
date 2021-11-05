@@ -1,0 +1,106 @@
+Package: com.randy420.fixcydia
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 264
+Depends: mobilesubstrate, com.randy420.tools (>=1.6)
+Filename: ./debs/fixCydia.deb
+Size: 8680
+MD5sum: c4c794f54f2be21da822e569f818954d
+SHA1: e6f2a100844da2b1feb930b38ca13fc0aee13a33
+SHA256: 59c9cd19c49fa95db1fb5448bc7ca6581b06e0f5b0951dc50ca345329b973caa
+Section: Utilities
+Description: get rid of those pesky cydia issues with one command in terminal 'fixCydia'
+Author: Randy420
+Name: Fix Broken Cydia
+
+Package: com.randy420.tai
+Version: 5.1.6
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 424
+Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 1.3), ws.hbang.common, mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
+Conflicts: net.howett.theos, com.randy420.encrypt
+Replaces: com.randy420.encrypt
+Filename: ./debs/tai.deb
+Size: 36876
+MD5sum: f638330fbeca9b22eafee76995f5b885
+SHA1: cebe387c92029b877983e9ae3520c3696641a230
+SHA256: 748c5d4e4b39ff0b6481be4434b977abbec78011f79e5328a2a2de1939d79ae0
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Install theos and setup everything you need with 1 simple command. Works on iOS 11, 12, 13 and 14 unc0ver, checkra1n & odyssey. Supports compiling armv7, armv7s, arm64, arm64e. Mterminal only! Don't use NewTerm as it crashes. Usage: 'tai' will download and install theos & sdks files if it's not already. 'tai -r' will download and re-install theos and all the required sdks files. 'tai -u' will uninstall theos & sdks files. 'tai -s' will download sdks only.   THEOS WIKI - https://github.com/theos/theos/wiki
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: Theos Auto Installer
+
+Package: com.randy420.tools
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2788
+Depends: ws.hbang.common
+Filename: ./debs/420Tools.deb
+Size: 952374
+MD5sum: b9f41274f216eedad26b92670b26fb8b
+SHA1: e297372f924b7bf2a7828b5e9cddcead3d6004be
+SHA256: a69c68c9c72f5cdc91d2bbba36f554448c998eab2638420a98385a873b5994b6
+Section: System
+Homepage: https://theemeraldisle.family
+Description: Tools for Randy420's tweaks
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: 420 Tools
+
+Package: com.volumestep.randy420
+Version: 0.1.9
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 448
+Depends: mobilesubstrate, ws.hbang.common, com.randy420.tools (>=1.3)
+Filename: ./debs/volumeStep.deb
+Size: 30128
+MD5sum: 90b5142bd62ffa861a6a4d0eb7f6c921
+SHA1: d92ae97b0ba23b7286c79958ebb1a3137f6ba334
+SHA256: 6598bacf37cfce84c9ee170b190904064d914a75c4690fe480c46c5dbe391b2f
+Section: Tweaks
+Description: Change the volume step limits
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: VolumeStep13/14
+
+Package: ru.rj.ftt
+Version: 0.3.8
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 360
+Depends: mobilesubstrate, ws.hbang.common, com.randy420.tools (>=1.6)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt.deb
+Size: 43042
+MD5sum: ff812f96422cb6973646770799edc216
+SHA1: 53d4ae45e0086aa6c576e8478c8b6c9c5485bab8
+SHA256: 6410cc3d9a7ce5f000b05320c778c05f394dc02fc36406f0e79da2aa24ec16bc
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: First made by iPad_kid - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. Use 'ftt -?' For a full list of options.    Flex 3 beta repo - http://getdelta.co     Original flex to theos coding I found :https://github.com/ipadkid358/FlexToTheos/find/master?q=
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Name: Flex To Theos
+
+Package: ru.rj.rr
+Version: 0.1.5
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 264
+Depends: mobilesubstrate, ws.hbang.common, com.randy420.tools (>=1.3)
+Replaces: com.randy420.rr
+Filename: ./debs/rr.deb
+Size: 24442
+MD5sum: f9a6b9769ec9a0644f7a30ddb7b153ad
+SHA1: ce62bef62b5eda10b534274d431554c97e8d46f4
+SHA256: 4ee8388f8f72ad6ad7fbfe116f48f4a3e65f2b6d71984b7a0a43f5dcbfa63a76
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: Remove Russian && Turkish language from tweaks
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: Remove Russian Language
+
