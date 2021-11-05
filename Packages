@@ -1,0 +1,106 @@
+Package: com.randy420.aptfix
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 264
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Filename: ./debs/fixCydia.deb
+Size: 8738
+MD5sum: ff1faf784db23fc1483696946d2660d5
+SHA1: 423d3bab295584710f1aa0dccf741404cd10f6f9
+SHA256: ba041967afcd208b4c1ca58d6bafbc9048b79ab6c5f01441db095e9cc270c8d4
+Section: Utilities
+Description: https://Randy-420.GitHub.io/depic/fixCydia.html
+Author: Randy420
+Name: fixCydia
+
+Package: com.randy420.tai
+Version: 5.1.7
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 424
+Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 1.7), mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
+Conflicts: net.howett.theos, com.randy420.encrypt
+Replaces: com.randy420.encrypt
+Filename: ./debs/tai.deb
+Size: 36508
+MD5sum: 3834fcfd6cd4532fabc82b5af0a858d2
+SHA1: 176955b67487b8c57aeefd28ecfb0192adeb5dbc
+SHA256: 6074f466a6b9109a5aca2a9a1e15dde1549a634baeee908a4db3601c09aea7c6
+Section: System
+Homepage: https://theemeraldisle.family
+Description: https://Randy-420.GitHub.io/depic/tai.html
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: Theos Auto Installer
+
+Package: com.randy420.tools
+Version: 1.7
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2628
+Depends: ws.hbang.common
+Filename: ./debs/420Tools.deb
+Size: 801440
+MD5sum: 287c529d0c04ae3cc69736f1c3267426
+SHA1: 3710003c2395b747328e41c077417f50b1970db5
+SHA256: 46f5f7874e7f2ef1ea4402b1ab7d15690ae197fea3c2889a2292a385329af879
+Section: System
+Homepage: https://theemeraldisle.family
+Description: https://Randy-420.GitHub.io/depic/420Tools.html
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: 420 Tools
+
+Package: com.volumestep.randy420
+Version: 0.2.0
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 448
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Filename: ./debs/volumeStep.deb
+Size: 30148
+MD5sum: c5254e3c3189efb92af2a4aec2186a00
+SHA1: 07cd241961d465d9459ab8100121cb154ff35e5e
+SHA256: b0d6ccd77b3388c826d4a0213dc6407f32f422dde483f27d25fb8a3da5a069e6
+Section: Tweaks
+Description: https://Randy-420.GitHub.io/depic/volumeStep.html
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: VolumeStep13/14
+
+Package: ru.rj.ftt
+Version: 0.3.9
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 360
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt.deb
+Size: 42986
+MD5sum: 78a0c17b338ea82d5829d14032e25e4b
+SHA1: 97026f109f2cb18dd689d16904b456d4d7a1f24a
+SHA256: 090cb5218856cd9030e4c11a0091423e118c47bf586163d708e98f5ee4d97263
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: https://Randy-420.GitHub.io/depic/ftt.html
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Name: Flex To Theos
+
+Package: ru.rj.rr
+Version: 0.1.6
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 336
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Replaces: com.randy420.rr
+Filename: ./debs/rr.deb
+Size: 31398
+MD5sum: 78391ce85ebc33bb234a1e60e9c436f6
+SHA1: 6cba1d3ea0728c4ac87f4c8e88291dadfdbf73af
+SHA256: bf887c7732dc158d5a170c4ab325a5fc990c1fac6f9ac6e52a6334db65ba673a
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: https://Randy-420.GitHub.io/depic/rr.html
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: Remove Russian Language
+
