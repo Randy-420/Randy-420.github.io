@@ -18,8 +18,14 @@ Size: 85240
 MD5sum: 3631617e264d827cd2aedf72e8513c05
 SHA1: 4737d8004afe3bf4c26799fdb8c4100305abc5ae
 SHA256: 6f271515ff55b4c10992da5510e171190c0927c672de914561f255bcdfc91ed8
-Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI)
- - tai
+Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
+  - tai 
+  
+  UNINSTALL THEOS 
+  - tai -u 
+  
+  REINSTALL THEOS 
+  - tai -r
 Name: Theos Auto Installer
 
 Package: com.randy420.tools
