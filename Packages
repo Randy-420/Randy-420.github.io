@@ -1,0 +1,89 @@
+Package: com.randy420.fixcydia
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Filename: ./debs/fixCydia.deb
+Size: 8956
+MD5sum: 573281086be1e0af8eeb30a1a1526cee
+SHA1: 48f9180f8b3c6cf20e093bd8535bd41fb2822950
+SHA256: e62c78cd31198d8f97404ea54f836aa5ccfc9fadb1bd80713cd96045b6f5a5ed
+Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or "apt locked" these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc) encountering errors.
+Name: fixCydia
+
+Package: com.randy420.tai
+Architecture: iphoneos-arm
+Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 1.7), mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
+Conflicts: net.howett.theos, com.randy420.encrypt
+Filename: ./debs/tai.deb
+Size: 36600
+MD5sum: 282c7efbe232e43715fef3eb00ff8403
+SHA1: cb88316e87a8efcf59baf928a0a34804ed651e48
+SHA256: 3363f1e3956028425335e8023c46ec830d50b2d7c282099134022054ccdab34a
+Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI)
+ • tai
+Name: Theos Auto Installer
+
+Package: com.randy420.tools
+Version: 1.7
+Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2628
+Depends: ws.hbang.common
+Filename: ./debs/420Tools.deb
+Size: 800970
+MD5sum: a7c2010a8dc7d95878fd5e5d87e3d23c
+SHA1: 6c454429b4c655b93a3305f0b94ad6a9ee06375b
+SHA256: edbb84f7bc89a09d6b4512793beb572f4bcb2d1f4b4feccb2e00614a42dc4fe7
+Section: System
+Homepage: https://theemeraldisle.family
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Tag: role::hacker
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Name: 420 Tools
+
+Package: com.volumestep.randy420
+Filename: ./debs/volumeStep.deb
+Size: 30326
+MD5sum: 72d09a1a6e56091eb58afd000ade966f
+SHA1: 9895595267b0e89d5706076d8a2123d6dc484e24
+SHA256: 6129db7f7d2d95c4d6089503749e447cd232b03931999a7a2bfd4eafc474b8c7
+Description: The side volume buttons change the volume by 6.25 percent per click by default.
+ VolumeStep13/14 allows you to customize that between 1 percent and 50 percent
+ • includes CC Toggle
+ • add vibration response on volume key press
+Author: Randy420 <randy.skinner@hotmail.com>
+Name: VolumeStep13/14
+
+Package: ru.rj.ftt
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Filename: ./debs/ftt.deb
+Size: 43664
+MD5sum: 7b6fccf16aab9647b90804e851d7cfc6
+SHA1: 293a0bc3ccc3d7597ed65427ebdd8e06196c8675
+SHA256: ec8168934bb97314ce157c5a18b11247a3548770b340adf6cf8336decfc784e3
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+Name: Flex To Theos
+
+Package: ru.rj.rr
+Version: 0.1.6
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 336
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Replaces: com.randy420.rr
+Filename: ./debs/rr.deb
+Size: 31452
+MD5sum: c021adaaf7ab6de507e7c1949e7ae25b
+SHA1: 9bf46cca0bd9fd75e3bae31bff43cd0745bd87bb
+SHA256: afd043699d420ab70a2d68c4e086b588803456b0415b7ce01b6bfe8d7f8bc199
+Section: Utilities
+Homepage: https://theemeraldisle.family
+Description: Remove Russian and or Turkish language project files from tweaks using terminal commands-
+ • rr
+ OR
+ • rr -a
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/rr.html
+Name: Remove Russian Language
+
