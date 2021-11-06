@@ -57,6 +57,10 @@ Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 
 Package: com.volumestep.randy420
+Version: 
+Architecture: iphoneos-arm
+
+Installed-Size: 
 Filename: ./debs/volumeStep.deb
 Size: 43774
 MD5sum: b1055ae1437900b42eceb7aeaf2a98ce
@@ -70,14 +74,51 @@ Author: Randy420 <randy.skinner@hotmail.com>
 Name: VolumeStep13/14
 
 Package: ru.rj.ftt
+Version: 0.3.9
 Architecture: iphoneos-arm
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 360
 Depends: mobilesubstrate, com.randy420.tools (>=1.7)
 Filename: ./debs/ftt.deb
 Size: 88832
 MD5sum: e4af3b7051f62400f8c84764870794b6
 SHA1: df92177139f3e5bf76664eaf117d25be999857e7
 SHA256: 272222bd8a7131010ff6db404fca2ec50848863d9f62d3248ef7c22e39b51275
-Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
+ 
+ - Use 'ftt -?' For a full list of options. 
+ 
+ Flex 3 beta repo 
+ 
+ Original flex to theos coding I found - ipadkid358 GitHub https://GitHub.com/ipadkid358
+ 
+ DIFFERENCES BETWEEN FLEX TO THEOS FROM IPADKID358 AND MINE 
+ 
+ V0.3.8 - I fixed the following bugs that were present in ipadkid358's version of flex to theos, but I hadn't gotten around to fixing until now 
+ 
+ - Fixed a bug that would try to return %orig; on a void method 
+ 
+ - If the output folder already exists, it will change the number on the end instead of failing to convert the project from flex to theos 
+ 
+ - Ability to set FINALPACKAGE: && DEBUG: automatically when generating the makefile. 
+ 
+ - Added ability to convert ALL flex patches to theos code projects with one command (ftt -z) 
+ 
+ PAST FLEX TO THEOS UPDATES 
+ 
+ - Fix bug that would add an extra character between the return value, causing the project not to make properly 
+ 
+ - (bool) <- two characters Added the ability to make the deb straight from flex to theos terminal output (ftt -m) 
+ 
+ - I have ftt -g hooked to some of my personal flex patches 
+ 
+ - Added a preference bundle which allows the user to set custom arm support for their deb as well as customize the developers name / email and bundle name 
+ 
+ - Added the ability to add a description to your patch straight from the terminal while using ftt 
+ 
+ - Added ability to automatically name the folder after the flex patch you're making (ftt -a)
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
 
 Package: ru.rj.rr
