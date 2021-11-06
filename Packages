@@ -6,10 +6,7 @@ Size: 18906
 MD5sum: 8b91bbb05a74a1b1d30def5c53a41ebd
 SHA1: 78f29f115a37e927782e4e1aa8ad49f116a5a920
 SHA256: 141a5fab6e9caff899306cb4a50fe8c6d5ff8e88326d2c66acd04835c0768152
-Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc) encountering errors. 
- 
- Clear these errors with one simple terminal command. 
- Run'fixCydia' in terminal or press the conveniently placed button in the preference bundle!
+Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc) encountering errors.
 Name: fixCydia
 
 Package: com.randy420.tai
@@ -17,12 +14,12 @@ Architecture: iphoneos-arm
 Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 1.7), mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
 Conflicts: net.howett.theos, com.randy420.encrypt
 Filename: ./debs/tai.deb
-Size: 36600
-MD5sum: 282c7efbe232e43715fef3eb00ff8403
-SHA1: cb88316e87a8efcf59baf928a0a34804ed651e48
-SHA256: 3363f1e3956028425335e8023c46ec830d50b2d7c282099134022054ccdab34a
+Size: 85240
+MD5sum: 3631617e264d827cd2aedf72e8513c05
+SHA1: 4737d8004afe3bf4c26799fdb8c4100305abc5ae
+SHA256: 6f271515ff55b4c10992da5510e171190c0927c672de914561f255bcdfc91ed8
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI)
- • tai
+ - tai
 Name: Theos Auto Installer
 
 Package: com.randy420.tools
@@ -46,14 +43,14 @@ Name: 420 Tools
 
 Package: com.volumestep.randy420
 Filename: ./debs/volumeStep.deb
-Size: 30326
-MD5sum: 72d09a1a6e56091eb58afd000ade966f
-SHA1: 9895595267b0e89d5706076d8a2123d6dc484e24
-SHA256: 6129db7f7d2d95c4d6089503749e447cd232b03931999a7a2bfd4eafc474b8c7
+Size: 43774
+MD5sum: b1055ae1437900b42eceb7aeaf2a98ce
+SHA1: c3c37620514ab32499a436060ba4b58d5d8ea7ef
+SHA256: affed02a549d4ba07fbd7c36573fb28f31f5b771253a00a6dbcd77e38539f2c0
 Description: The side volume buttons change the volume by 6.25 percent per click by default.
  VolumeStep13/14 allows you to customize that between 1 percent and 50 percent
- • includes CC Toggle
- • add vibration response on volume key press
+ - includes CC Toggle
+ - add vibration response on volume key press
 Author: Randy420 <randy.skinner@hotmail.com>
 Name: VolumeStep13/14
 
@@ -61,10 +58,10 @@ Package: ru.rj.ftt
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, com.randy420.tools (>=1.7)
 Filename: ./debs/ftt.deb
-Size: 43664
-MD5sum: 7b6fccf16aab9647b90804e851d7cfc6
-SHA1: 293a0bc3ccc3d7597ed65427ebdd8e06196c8675
-SHA256: ec8168934bb97314ce157c5a18b11247a3548770b340adf6cf8336decfc784e3
+Size: 88832
+MD5sum: e4af3b7051f62400f8c84764870794b6
+SHA1: df92177139f3e5bf76664eaf117d25be999857e7
+SHA256: 272222bd8a7131010ff6db404fca2ec50848863d9f62d3248ef7c22e39b51275
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands.
 Name: Flex To Theos
 
