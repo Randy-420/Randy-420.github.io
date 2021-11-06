@@ -2,11 +2,14 @@ Package: com.randy420.fixcydia
 Architecture: iphoneos-arm
 Depends: mobilesubstrate, com.randy420.tools (>=1.7)
 Filename: ./debs/fixCydia.deb
-Size: 8956
-MD5sum: 573281086be1e0af8eeb30a1a1526cee
-SHA1: 48f9180f8b3c6cf20e093bd8535bd41fb2822950
-SHA256: e62c78cd31198d8f97404ea54f836aa5ccfc9fadb1bd80713cd96045b6f5a5ed
-Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or "apt locked" these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc) encountering errors.
+Size: 18906
+MD5sum: 8b91bbb05a74a1b1d30def5c53a41ebd
+SHA1: 78f29f115a37e927782e4e1aa8ad49f116a5a920
+SHA256: 141a5fab6e9caff899306cb4a50fe8c6d5ff8e88326d2c66acd04835c0768152
+Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc) encountering errors. 
+ 
+ Clear these errors with one simple terminal command. 
+ Run'fixCydia' in terminal or press the conveniently placed button in the preference bundle!
 Name: fixCydia
 
 Package: com.randy420.tai
