@@ -10,6 +10,8 @@ Description: Sometimes, your package manager will kick back an error like "DPKG 
  . 
  Clear these errors with one simple terminal command. 
  Run'fixCydia' in terminal or press the conveniently placed button in the preference bundle!
+Depiction: https://Randy-420.GitHub.io/depic/fixCydia.html
+Author: Randy420
 Name: fixCydia
 
 Package: com.randy420.tai
