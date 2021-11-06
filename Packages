@@ -96,6 +96,7 @@ Size: 88832
 MD5sum: e4af3b7051f62400f8c84764870794b6
 SHA1: df92177139f3e5bf76664eaf117d25be999857e7
 SHA256: 272222bd8a7131010ff6db404fca2ec50848863d9f62d3248ef7c22e39b51275
+Section: Utilities
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
  
  - Use 'ftt -?' For a full list of options. 
