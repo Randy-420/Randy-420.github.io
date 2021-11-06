@@ -65,20 +65,23 @@ Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Name: 420 Tools
 
 Package: com.volumestep.randy420
-Version: 
+Version: 0.2.0
 Architecture: iphoneos-arm
-
-Installed-Size: 
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 448
+Depends: mobilesubstrate, com.randy420.tools (>=1.7)
 Filename: ./debs/volumeStep.deb
 Size: 43774
 MD5sum: b1055ae1437900b42eceb7aeaf2a98ce
 SHA1: c3c37620514ab32499a436060ba4b58d5d8ea7ef
 SHA256: affed02a549d4ba07fbd7c36573fb28f31f5b771253a00a6dbcd77e38539f2c0
+Section: Tweaks
 Description: The side volume buttons change the volume by 6.25 percent per click by default.
  VolumeStep13/14 allows you to customize that between 1 percent and 50 percent
  - includes CC Toggle
  - add vibration response on volume key press
 Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/volumeStep.html
 Name: VolumeStep13/14
 
 Package: ru.rj.ftt
@@ -87,6 +90,7 @@ Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 360
 Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
 Size: 88832
 MD5sum: e4af3b7051f62400f8c84764870794b6
