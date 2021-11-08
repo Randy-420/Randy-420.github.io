@@ -19,6 +19,26 @@ Author: Randy420
 Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
 Name: aptFix
 
+Package: com.cpdigitaldarkroom.itsevanesco
+Version: 2021.11
+Architecture: iphoneos-arm
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Installed-Size: 644
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi
+Filename: ./debs/evanesco.deb
+Size: 69890
+MD5sum: 4d9957627215b24d12e3590cb3a35701
+SHA1: dd594863587d84d37f60831b5d8ede4174286078
+SHA256: 7f341bcb6fb238b859216d32c52170a857336a2486ba0c5feccc6b4de5eff70c
+Section: Tweaks
+Description: Evanesco, named after vanishing spell in hp, is a small modification which makes your ifone disappear after a defined time of inactivity. 
+ 
+ All settings configured from the SeTtInGs app
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Name: Evanesco!
+
 Package: com.randy420.tai
 Version: 5.1.7
 Architecture: iphoneos-arm
@@ -156,4 +176,3 @@ Description: Remove Russian and or Turkish language project files from tweaks us
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/rr.html
 Name: Remove Russian Language
-
