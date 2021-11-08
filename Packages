@@ -6,7 +6,7 @@ Installed-Size: 264
 Depends: mobilesubstrate, com.randy420.tools (>=1.8)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptFix.deb
-Size: 18910
+Size: 8974
 MD5sum: 3c1b6c040725e583cb968ace54e0f00d
 SHA1: a558d2c590c4176445f10b3e818416593ab29bd0
 SHA256: ccac254e356f177ae5076b3710a777fe3471333047651c606c110c9bb7060ad6
