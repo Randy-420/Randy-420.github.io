@@ -1,22 +1,23 @@
-Package: com.randy420.fixcydia
-Version: 0.0.2
+Package: com.randy420.aptfix
+Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: Randy420
 Installed-Size: 264
-Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Depends: mobilesubstrate, com.randy420.tools (>=1.8)
 Filename: ./debs/fixCydia.deb
 Size: 18910
-MD5sum: a555d12d46ab0522fa69b9b57fed56c8
-SHA1: dc24f783e201df3e7a66af2820e5d8979976ff37
-SHA256: f1203ca5584f2043811fd86b77aa486cd978f99e9425ec43f8b497f437cfac7b
+MD5sum: 3c1b6c040725e583cb968ace54e0f00d
+SHA1: a558d2c590c4176445f10b3e818416593ab29bd0
+SHA256: ccac254e356f177ae5076b3710a777fe3471333047651c606c110c9bb7060ad6
+Replaces: com.randy420.fixcydia
 Section: Utilities
-Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc) encountering errors.
- . 
- Clear these errors with one simple terminal command. 
- Run'fixCydia' in terminal or press the conveniently placed button in the preference bundle! 
+Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc). 
+   
+  Clear these errors with one simple terminal command. 
+  Run'aptFix' in terminal or press the conveniently placed button in the preference bundle!
 Author: Randy420
-Depiction: https://Randy-420.GitHub.io/depic/fixCydia.html
-Name: fixCydia
+Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
+Name: aptFix
 
 Package: com.randy420.tai
 Version: 5.1.7
@@ -34,28 +35,28 @@ SHA256: 6f271515ff55b4c10992da5510e171190c0927c672de914561f255bcdfc91ed8
 Section: System
 Tag: role::hacker
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
-  - tai 
+  • tai 
   
   UNINSTALL THEOS 
-  - tai -u 
+  • tai -u 
   
   REINSTALL THEOS 
-  - tai -r
+  • tai -r
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
 
 Package: com.randy420.tools
-Version: 1.7
+Version: 1.8
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 2628
 Depends: ws.hbang.common
 Filename: ./debs/420Tools.deb
-Size: 800970
-MD5sum: a7c2010a8dc7d95878fd5e5d87e3d23c
-SHA1: 6c454429b4c655b93a3305f0b94ad6a9ee06375b
-SHA256: edbb84f7bc89a09d6b4512793beb572f4bcb2d1f4b4feccb2e00614a42dc4fe7
+Size: 800310
+MD5sum: 79b4f836fadf6ffca05b0356e4bc1be5
+SHA1: 10ed8ff39e7d3dadb23aa0264b56c799bb79aad6
+SHA256: 3f8ba33221c490cf36aab5f1b2124944836e8be6e57d35d3ed96032271bd113b
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
@@ -78,8 +79,8 @@ SHA256: affed02a549d4ba07fbd7c36573fb28f31f5b771253a00a6dbcd77e38539f2c0
 Section: Tweaks
 Description: The side volume buttons change the volume by 6.25 percent per click by default.
  VolumeStep13/14 allows you to customize that between 1 percent and 50 percent
- - includes CC Toggle
- - add vibration response on volume key press
+ • includes CC Toggle
+ • add vibration response on volume key press
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/volumeStep.html
 Name: VolumeStep13/14
@@ -99,7 +100,7 @@ SHA256: 272222bd8a7131010ff6db404fca2ec50848863d9f62d3248ef7c22e39b51275
 Section: Utilities
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
  
- - Use 'ftt -?' For a full list of options. 
+ • Use 'ftt -?' For a full list of options. 
  
  Flex 3 beta repo 
  
@@ -109,27 +110,27 @@ Description: First made by iPadkid358 - then updated by myself. Change Flex 3 pa
  
  V0.3.8 - I fixed the following bugs that were present in ipadkid358's version of flex to theos, but I hadn't gotten around to fixing until now 
  
- - Fixed a bug that would try to return %orig; on a void method 
+ • Fixed a bug that would try to return %orig; on a void method 
  
- - If the output folder already exists, it will change the number on the end instead of failing to convert the project from flex to theos 
+ • If the output folder already exists, it will change the number on the end instead of failing to convert the project from flex to theos 
  
- - Ability to set FINALPACKAGE: && DEBUG: automatically when generating the makefile. 
+ • Ability to set FINALPACKAGE: && DEBUG: automatically when generating the makefile. 
  
- - Added ability to convert ALL flex patches to theos code projects with one command (ftt -z) 
+ • Added ability to convert ALL flex patches to theos code projects with one command (ftt -z) 
  
  PAST FLEX TO THEOS UPDATES 
  
- - Fix bug that would add an extra character between the return value, causing the project not to make properly 
+ • Fix bug that would add an extra character between the return value, causing the project not to make properly 
  
- - (bool) <- two characters Added the ability to make the deb straight from flex to theos terminal output (ftt -m) 
+ • (bool) <- two characters Added the ability to make the deb straight from flex to theos terminal output (ftt -m) 
  
- - I have ftt -g hooked to some of my personal flex patches 
+ • I have ftt -g hooked to some of my personal flex patches 
  
- - Added a preference bundle which allows the user to set custom arm support for their deb as well as customize the developers name / email and bundle name 
+ • Added a preference bundle which allows the user to set custom arm support for their deb as well as customize the developers name / email and bundle name 
  
- - Added the ability to add a description to your patch straight from the terminal while using ftt 
+ • Added the ability to add a description to your patch straight from the terminal while using ftt 
  
- - Added ability to automatically name the folder after the flex patch you're making (ftt -a)
+ • Added ability to automatically name the folder after the flex patch you're making (ftt -a)
 Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/ftt.html
 Name: Flex To Theos
