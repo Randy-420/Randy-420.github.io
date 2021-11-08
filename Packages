@@ -6,10 +6,10 @@ Installed-Size: 264
 Depends: mobilesubstrate, com.randy420.tools (>=1.8)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptFix.deb
-Size: 8974
-MD5sum: 3c1b6c040725e583cb968ace54e0f00d
-SHA1: a558d2c590c4176445f10b3e818416593ab29bd0
-SHA256: ccac254e356f177ae5076b3710a777fe3471333047651c606c110c9bb7060ad6
+Size: 8976
+MD5sum: 90da0cc4cc917ebec5293777735f59a6
+SHA1: 83b2793155b486ed5b54cc5540e3af1991d7c7e2
+SHA256: 0cf4688ab5d7bbdba00030633361911eee22f1ee0e48f17ca16382ff91598185
 Section: Utilities
 Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc). 
    
