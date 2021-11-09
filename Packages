@@ -106,17 +106,17 @@ Depiction: https://Randy-420.GitHub.io/depic/volumeStep.html
 Name: VolumeStep13/14
 
 Package: ru.rj.ftt
-Version: 0.3.9
+Version: 0.6
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 360
 Depends: mobilesubstrate, com.randy420.tools (>=1.7)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
-Size: 88832
-MD5sum: e4af3b7051f62400f8c84764870794b6
-SHA1: df92177139f3e5bf76664eaf117d25be999857e7
-SHA256: 272222bd8a7131010ff6db404fca2ec50848863d9f62d3248ef7c22e39b51275
+Size: 43894
+MD5sum: 9038b8d870ea20eb13e11903ee07913f
+SHA1: d673b0e75e740d3b47af5ed29c9a9beb70faf1f2
+SHA256: 53cfe41cbcafdd0b12ab64fab415b2b88ef3f640a15f5bc802feaf4063afa9ff
 Section: Utilities
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
  
