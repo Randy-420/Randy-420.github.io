@@ -39,6 +39,23 @@ Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
 Name: Evanesco!
 
+Package: com.randy420.evanescocc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Randy420
+Installed-Size: 180
+Depends: com.opa334.ccsupport, com.cpdigitaldarkroom.itsevanesco
+Filename: ./debs/evanescoCc.deb
+Size: 20130
+MD5sum: d61c800e6d0ca79ee4481833d67a82d2
+SHA1: 844e0b6f441a59b0e995ff478f3b3f1f6be2a0c5
+SHA256: 6319bd803c0392018118a5c1f9542e8141275656775f5ffe3bb1a8419e01c273
+Section: Control Center (Modules)
+Description: Control Center Modules for Evanesco
+Author: Randy420
+Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
+Name: evanescocc
+
 Package: com.randy420.tai
 Version: 5.1.7
 Architecture: iphoneos-arm
