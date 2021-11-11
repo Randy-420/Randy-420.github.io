@@ -84,16 +84,16 @@ Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
 
 Package: com.randy420.tools
-Version: 1.9
+Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 2628
 Depends: ws.hbang.common
 Filename: ./debs/420Tools.deb
-Size: 800310
-MD5sum: 79b4f836fadf6ffca05b0356e4bc1be5
-SHA1: 10ed8ff39e7d3dadb23aa0264b56c799bb79aad6
-SHA256: 3f8ba33221c490cf36aab5f1b2124944836e8be6e57d35d3ed96032271bd113b
+Size: 800816
+MD5sum: 2f80cd5f1be3b3a4124329df227d638e
+SHA1: 658c4a4d01f2dc8e586439061cec7dbcfbe2d426
+SHA256: 55502734177da6165ec1f7e2a1631284f98cc5c0bf8950d6f8368f0674122e95
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
