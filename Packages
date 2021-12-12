@@ -1,15 +1,15 @@
 Package: com.randy420.aptfix
-Version: 0.0.1
+Version: 0.0.3
 Architecture: iphoneos-arm
 Maintainer: Randy420
 Installed-Size: 264
 Depends: mobilesubstrate, com.randy420.tools (>=1.8)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptFix.deb
-Size: 8976
-MD5sum: 90da0cc4cc917ebec5293777735f59a6
-SHA1: 83b2793155b486ed5b54cc5540e3af1991d7c7e2
-SHA256: 0cf4688ab5d7bbdba00030633361911eee22f1ee0e48f17ca16382ff91598185
+Size: 8990
+MD5sum: 1d1bf51752b63b8dc838d24d5e1d367c
+SHA1: f28725e3c45042d5a4ae9f40a62ca18d40fab240
+SHA256: 854eeebfd15c594e45a09ddd92e2d70afd184d99df871939d71c1819c97acbd5
 Section: Utilities
 Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc). 
    
@@ -20,17 +20,17 @@ Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
 Name: aptFix
 
 Package: com.cpdigitaldarkroom.itsevanesco
-Version: 2021.11
+Version: 2021.12
 Architecture: iphoneos-arm
 Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
-Installed-Size: 644
+Installed-Size: 852
 Depends: mobilesubstrate
 Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi
 Filename: ./debs/evanesco.deb
-Size: 69890
-MD5sum: 4d9957627215b24d12e3590cb3a35701
-SHA1: dd594863587d84d37f60831b5d8ede4174286078
-SHA256: 7f341bcb6fb238b859216d32c52170a857336a2486ba0c5feccc6b4de5eff70c
+Size: 111510
+MD5sum: 2b62890ee186447a8149214a1ae4ccaa
+SHA1: 3bafba6dabf860171aceab2e05cce0e8df2f7d10
+SHA256: 510af0ea87a442cf6b2be47803ba3b68d5bd4e1edb4af757f441ba257864c305
 Section: Tweaks
 Description: Evanesco, named after vanishing spell in hp, is a small modification which makes your ifone disappear after a defined time of inactivity. 
  
@@ -57,18 +57,18 @@ Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
 Name: evanescocc
 
 Package: com.randy420.tai
-Version: 5.1.7
+Version: 5.1.8
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 424
+Installed-Size: 460
 Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 1.7), mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
 Conflicts: net.howett.theos, com.randy420.encrypt
 Replaces: com.randy420.encrypt
 Filename: ./debs/tai.deb
-Size: 85240
-MD5sum: 3631617e264d827cd2aedf72e8513c05
-SHA1: 4737d8004afe3bf4c26799fdb8c4100305abc5ae
-SHA256: 6f271515ff55b4c10992da5510e171190c0927c672de914561f255bcdfc91ed8
+Size: 39292
+MD5sum: ce26a9468177d15f114dcd8b8e0e5011
+SHA1: f57f15b401c7ea64c6335c0d9c17ee871dfc5e4b
+SHA256: 69d8335a9b842e2a8f59853e489b54b7f16bd35e9b5c1022323d48d87f92678e
 Section: System
 Tag: role::hacker
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
@@ -84,16 +84,16 @@ Depiction: https://Randy-420.GitHub.io/depic/tai.html
 Name: Theos Auto Installer
 
 Package: com.randy420.tools
-Version: 2.0
+Version: 2.1
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 2628
+Installed-Size: 2540
 Depends: ws.hbang.common
 Filename: ./debs/420Tools.deb
-Size: 800816
-MD5sum: 2f80cd5f1be3b3a4124329df227d638e
-SHA1: 658c4a4d01f2dc8e586439061cec7dbcfbe2d426
-SHA256: 55502734177da6165ec1f7e2a1631284f98cc5c0bf8950d6f8368f0674122e95
+Size: 804774
+MD5sum: 07ff9ce12dd7b6b58a495431de083436
+SHA1: 72506334bb7700c1983c8417fb284f688cd984e6
+SHA256: d189aaec4c4918ff31a3f9d18d723b8b9f492bf0ba9f40f883f8af6606e96711
 Section: System
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
@@ -123,17 +123,17 @@ Depiction: https://Randy-420.GitHub.io/depic/volumeStep.html
 Name: VolumeStep13/14
 
 Package: ru.rj.ftt
-Version: 0.6
+Version: 0.7
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 360
 Depends: mobilesubstrate, com.randy420.tools (>=1.7)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
-Size: 43894
-MD5sum: 9038b8d870ea20eb13e11903ee07913f
-SHA1: d673b0e75e740d3b47af5ed29c9a9beb70faf1f2
-SHA256: 53cfe41cbcafdd0b12ab64fab415b2b88ef3f640a15f5bc802feaf4063afa9ff
+Size: 44380
+MD5sum: 5c859e5cfed36312f69629db0a42c8e7
+SHA1: 5e40584cdce6d86a5cd371b21c93eb7447175f4b
+SHA256: 3bd4c0129d96610a4baccc5971918dba65dc4886c1ad866d6b0823c485cc9059
 Section: Utilities
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
  
