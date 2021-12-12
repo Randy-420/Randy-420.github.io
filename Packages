@@ -3,7 +3,7 @@ Version: 0.0.3
 Architecture: iphoneos-arm
 Maintainer: Randy420
 Installed-Size: 264
-Depends: mobilesubstrate, com.randy420.tools (>=1.8)
+Depends: mobilesubstrate, com.randy420.tools (>=2.1)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptFix.deb
 Size: 8990
@@ -61,7 +61,7 @@ Version: 5.1.8
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 460
-Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 1.7), mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
+Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 2.1), mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
 Conflicts: net.howett.theos, com.randy420.encrypt
 Replaces: com.randy420.encrypt
 Filename: ./debs/tai.deb
@@ -127,7 +127,7 @@ Version: 0.7
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 360
-Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Depends: mobilesubstrate, com.randy420.tools (>=2.1)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
 Size: 44380
