@@ -25,7 +25,7 @@ Architecture: iphoneos-arm
 Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
 Installed-Size: 852
 Depends: mobilesubstrate
-Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
 Filename: ./debs/evanesco.deb
 Size: 111510
 MD5sum: 2b62890ee186447a8149214a1ae4ccaa
