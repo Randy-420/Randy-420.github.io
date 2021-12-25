@@ -1,3 +1,39 @@
+.table-btn, .table-btn > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table-btn:after {
+    content: "›";
+    font-size:30px;
+    transform: translateY(-40px);
+    float: right;
+}
+
+.goog-te-banner-frame{visibility:hidden !important;
+}
+
+#body-main{top:0px !important;
+}
+
+.goog-logo-link {
+   display:none !important;
+}
+
+.goog-te-gadget {
+   color: transparent !important;
+}
+
+.goog-te-balloon-frame { 
+   display: none;
+}
+
+#goog-gt-tt, .goog-te-balloon-frame{display: none !important;
+}
+
+.goog-text-highlight { background: none !important; box-shadow: none !important;
+}
+
 iframe {
   border:0
 }

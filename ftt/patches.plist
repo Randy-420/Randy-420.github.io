@@ -4845,7 +4845,7 @@
 			<key>name</key>
 			<string>VolumeStep2 - Randy420</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -5782,7 +5782,7 @@
 			<key>name</key>
 			<string>MedCalX Patch</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -6259,7 +6259,7 @@
 			<key>name</key>
 			<string>RosettaStone 4.x.x</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -6677,7 +6677,7 @@
 			<key>name</key>
 			<string>Multi Social Patch</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -7078,7 +7078,7 @@
 			<key>name</key>
 			<string>Evil Onion Patch</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -7289,7 +7289,7 @@
 			<key>name</key>
 			<string>Deezer Patch</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -7405,7 +7405,7 @@
 			<key>name</key>
 			<string>TURN_LIVE_Live_Wallpaper Patch</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -7694,7 +7694,7 @@
 			<key>name</key>
 			<string>Discord True Dark Mode Patch</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -7791,7 +7791,7 @@
 			<key>name</key>
 			<string>Canary Patch</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
@@ -8192,7 +8192,7 @@
 			<key>name</key>
 			<string>Overcast Patch</string>
 			<key>switchedOn</key>
-			<false/>
+			<true/>
 			<key>units</key>
 			<array>
 				<dict>
