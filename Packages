@@ -57,18 +57,18 @@ Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
 Name: evanescocc
 
 Package: com.randy420.tai
-Version: 5.1.9
+Version: 5.1.9-1
 Architecture: iphoneos-arm
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 468
+Installed-Size: 472
 Depends: com.randy420.tools (>= 2.2), com.randy420.taidependsother | com.randy420.taidependscoolstar
 Conflicts: net.howett.theos, com.randy420.encrypt
 Replaces: com.randy420.encrypt
 Filename: ./debs/tai.deb
-Size: 51744
-MD5sum: 1c06036d6cfedcb362e22f71cbd478b9
-SHA1: 130701d66df52f96a6dd7648e8a0a7aa8b539070
-SHA256: bc7f15e14ab600de013e3c8c7198d698dec691499b43a3868f6212e0a938c5dc
+Size: 52268
+MD5sum: e869033874fc2baf403f8a28642e3f35
+SHA1: 9245f7c6d60a68991d94d012c9e5f7e390b06eda
+SHA256: 83fe557a2f6b331edd68763cd2445929a64212620a1f87bdceeaf17e633fe6f3
 Section: System
 Tag: role::hacker
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
