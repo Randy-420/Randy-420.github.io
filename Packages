@@ -28,11 +28,11 @@ Depends: theos-dependencies
 Conflicts: com.randy420.taidependsother, org.theos.dependencies
 Replaces: com.randy420.taidependsother, org.theos.dependencies
 Filename: ./debs/Theos-Depends/dependsCool.deb
-Size: 724
-MD5sum: 982a8de83909b4f1202c5dd82276f858
-SHA1: 59572e3733077b2ef6675a8185d92aa9cf0f26ff
-SHA256: 97b32ed342b197dc0c49e020c5ab00dce910560f6ea0156870ef9ef5d7e54ea8
-SHA512: f7ab952d2b2ab071144ff831832757c9f18ca4d6dc9cab05ac23a60f6e514e12a3c1f7ee3987edbc22bc32c821b4f5355d8bf2d1372f15c982bd05f222f6c617
+Size: 722
+MD5sum: 01ca27d1a7404db7f6bc537e48d5b810
+SHA1: 8054fe715b73407f0c67a271b27f4a3b5a47980d
+SHA256: b0a5985c891c13f1413efa18e58652ad529906f22b7223297fe54f8fe85ee1c7
+SHA512: 9546ed992ebd7aa7222a074c5e06bc65c4aa060f697dc424a24ff4375484dc8a42d842376b0e5ec6313dfd8860096afb17cf96bdc7b313ed815cbf1503cdf202
 Homepage: https://theemeraldisle.family
 Description: dependencies for coolstar's jailbreaks
 Tag: role::hacker
@@ -71,11 +71,11 @@ Installed-Size: 268
 Depends: mobilesubstrate, com.randy420.tools (>=2.1)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptFix.deb
-Size: 12808
-MD5sum: 183235194ad0be206989f701bb80936a
-SHA1: f7dd32be4525cc50fe07f0c89fd384b2dadbe942
-SHA256: 4ecbf193c8701915768094c472b04f69e3d50d17889b54424441d4741d4203fc
-SHA512: 3a9cf508190b38a39d0be054bcd8f09dd48efa17ff11f97159359d0858177a9df9cdfbc5cfab6b78c8bed16a66ca262171a15882a006bbf3eef4d1a785944d49
+Size: 12696
+MD5sum: 0afb25c3bba38b86386096988979e425
+SHA1: bf3e023d669a861472a2da8968eb3815a6ecefef
+SHA256: 9ed5768b5ec09204f54b7d854546c406688c9b51d657484c331f2447d3ee3529
+SHA512: 19c605c3b4ead4f58440f5703193c1c9c42fbc0e9bed115504511871a6bd3d0cb53ef209381841425564ee1e803f43a3a4a00caa7686db1fdcf10d197f2c0838
 Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc). 
   
  Clear these errors with one simple terminal command. 
@@ -93,14 +93,15 @@ Installed-Size: 852
 Depends: mobilesubstrate
 Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
 Filename: ./debs/evanesco.deb
-Size: 111510
-MD5sum: 2b62890ee186447a8149214a1ae4ccaa
-SHA1: 3bafba6dabf860171aceab2e05cce0e8df2f7d10
-SHA256: 510af0ea87a442cf6b2be47803ba3b68d5bd4e1edb4af757f441ba257864c305
-SHA512: bd8e5b009964b47b3b33a80158a228ee7358683ab6bfbfbd364ad145c94b2a88be4d10cef272d02103f16c2c0dd9128a2835d9354d0dcc5013e1e1b66f1b0d1b
+Size: 112122
+MD5sum: c5d525d7d332ae13f347bc540b4fcaa4
+SHA1: 42bef11d510a7bac2388a8d2b74040ef511341ac
+SHA256: f0bcc46d174f85d283085aa25e39518fe031560b158ea721b54dc96d12c0d741
+SHA512: a3f171ce4600fcd5da5a0140b822830664c61faf3c8d2dea919c9a59d0c6d4e8dcb9ab40d806ba7bb37b3241c17a2ee121510fae0ffcc4ff30f007006f38c63d
 Description: Clear Your Homescreen After Inactivity
 Name: Evanesco!
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
 Icon: file:///Library/PreferenceLoader/Preferences/Evanesco@3x.png
 
 Package: com.randy420.evanescocc
@@ -108,16 +109,17 @@ Architecture: iphoneos-arm
 Version: 1.0
 Section: Control Center (Modules)
 Maintainer: Randy420
-Installed-Size: 180
+Installed-Size: 184
 Depends: com.opa334.ccsupport, com.cpdigitaldarkroom.itsevanesco
 Filename: ./debs/evanescoCc.deb
-Size: 20130
-MD5sum: d61c800e6d0ca79ee4481833d67a82d2
-SHA1: 844e0b6f441a59b0e995ff478f3b3f1f6be2a0c5
-SHA256: 6319bd803c0392018118a5c1f9542e8141275656775f5ffe3bb1a8419e01c273
-SHA512: a204026651a0256ac42eb292a14a3ea98337d79307bd78da802e56c133f9c8af0d15f9973be0a7887b57d7672f190968feff57b133dd813900df72d757535805
+Size: 21204
+MD5sum: 606d4b23c04612dcd0b4ba642add36b3
+SHA1: e3151ec88483ed268a2c6c677ec164ba4264928d
+SHA256: 19100c94559134b00ab517dcb960eb2e0277b14acfc0b9112b4692b2ecbeb0af
+SHA512: ae69dce6164ece727ee0bc1dfee5a3e8128d6491fab7f3f4a950f2f574c7beedc96df1823074d2cb632a28f438a888b6fa6e6492f20832406941d2d00ebf4c8f
 Description: Control Center Modules for Evanesco
 Name: evanescocc
+Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
 Author: Randy420
 
 Package: ru.rj.ftt
@@ -129,11 +131,11 @@ Installed-Size: 480
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
-Size: 67152
-MD5sum: 9ddce2f86798ff08294c25936a2d31dd
-SHA1: 3bf70d9bd0fcb99a41959a0024ce9385b2a22826
-SHA256: e067b41d5d3ec1ddb7dade84c98639bafbb23716db8a10897a410361884c353b
-SHA512: 19b37c7ec5c3a7ed5d14e368811a9d2171dd92b86b1524f747534fc1a0c7d6b216c2ff9037ce30a9e35142eb8e97ed546e2c49de352df26692b7615e51444009
+Size: 67114
+MD5sum: b11a6b2bed09f62afed77e1fd1010cd0
+SHA1: babf072d2585b7d9585e9a91a358a900ebc03d9b
+SHA256: 6f76cb49ea7c3a6166689a36d6595023ce859ee94cff75ea219b631533c42384
+SHA512: b030f5a99780317714581bcbde53a41ead6829fcecac24692ae9e317b13e8f0a8091137f78cb7362e03fe19445f78a8c680962610135e84bebadd6e2c38ad467
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
   
@@ -151,11 +153,11 @@ Installed-Size: 340
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.randy420.rr
 Filename: ./debs/rr.deb
-Size: 41746
-MD5sum: 5ea88c4cca8cee3b7f14daf11671085c
-SHA1: a3153bc68680cec6dcec9e99efa73d448f30def7
-SHA256: 991df84ae72bc609a9ed9bce9f110fbcea9225e282d86bb2c8c84f11d73dc35c
-SHA512: a9b50112583c17b464626ccb6eb35b89e1e18f776a349eccc1ed2d24533f8682e0c9ac0b679cf1a12637ed68d804e74f98485c5fb8fe18f13e56d780b8737640
+Size: 41006
+MD5sum: 8f0bb159c55a55ee874b7dc0ef61ef3b
+SHA1: f9ec5db1b1248ac7a577f2342687760322571ff0
+SHA256: 4f63e27a40bfbf1bc513ad914de9b58d80a265fd42305cfab991851550d0ad93
+SHA512: 4081571b8fde932405617bc7bfa9d93bde351d38e75566d38d932c94f03bb20617586236c430b94eeff690b6aa24ba90f8cad0e261317a5294377c152e9b6aa3
 Homepage: https://theemeraldisle.family
 Description: Remove Russian and or Turkish language project files from tweaks using terminal commands- 
   rr 
@@ -175,11 +177,11 @@ Depends: com.randy420.tools (>= 2.2), com.randy420.taidependsother | com.randy42
 Conflicts: net.howett.theos, com.randy420.encrypt
 Replaces: com.randy420.encrypt
 Filename: ./debs/tai.deb
-Size: 52268
-MD5sum: e869033874fc2baf403f8a28642e3f35
-SHA1: 9245f7c6d60a68991d94d012c9e5f7e390b06eda
-SHA256: 83fe557a2f6b331edd68763cd2445929a64212620a1f87bdceeaf17e633fe6f3
-SHA512: 9779a493490e7cdd2911225bb0ce01d627eb84ba0027f7c92fa7c6c059c12da371a3ff5ef6223a24cfabafb1b1d234d0a425cbc0b2c27367dfb0d44c20a7ceba
+Size: 52368
+MD5sum: 3c29e504a4d1e4d8cfd2ea2e4950d737
+SHA1: 88a2592cad6cc4495a26434dada008380de3ac94
+SHA256: 3f5092dc77d43b55990ef88bc06bb10e761f2d809148ae9b381bcaa1208f7b23
+SHA512: 6093599efcadcc35168ed11867d79ba8410fb1f5bdc64b7119245c47c5266b72eef3b7c532676ef979fd5a0b57ceb48ef201ef65f4143c6aad7e663f5069e954
 Homepage: https://theemeraldisle.family
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
  - tai
