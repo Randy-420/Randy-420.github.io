@@ -6,11 +6,11 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 2268
 Depends: ws.hbang.common
 Filename: ./debs/420Tools.deb
-Size: 792492
-MD5sum: 3b6adc79b05a94981f80674460052048
-SHA1: d90597b333950c7efd9c43216a561b3480a7c5b2
-SHA256: be8f878953d9eb08da2254f6db828873b03c48ea5d532f6e970b44c81cf25136
-SHA512: 3654a01caca31b8806fa73f208a338a70e90e2b53687483519edea3b5072053c672dd123e490d3af3bc91aa8783490cecc22f8c566d0b66d45ae9be44f0f430b
+Size: 788818
+MD5sum: e05bb6742444c02d77691ff0f3561ee6
+SHA1: d98ca29a26861413f773f6e2e2a85cd04bc92a05
+SHA256: 3fa4a33a2237f61f1d2bfade2a91c38c7925107c9e3515d5d6032f5f8a89f4be
+SHA512: 0daa5f7def35c110c78db4624b2a0b679d35c89b8a41800f4fad55599745225e545e31f0801418172b38d9e05c3483b5acdd9607379a851ce95ddcc6fb66478c
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
