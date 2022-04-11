@@ -20,23 +20,23 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.taidependscoolstar
 Architecture: iphoneos-arm
-Version: 0.1
+Version: 0.2
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: theos-dependencies
+Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid, plutil, com.kabiroberai.swift-toolchain, com.opa334.ccsupport, xar, lz4
 Conflicts: com.randy420.taidependsother, org.theos.dependencies
-Replaces: com.randy420.taidependsother, org.theos.dependencies
+Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
 Filename: ./debs/Theos-Depends/dependsCool.deb
-Size: 722
-MD5sum: 01ca27d1a7404db7f6bc537e48d5b810
-SHA1: 8054fe715b73407f0c67a271b27f4a3b5a47980d
-SHA256: b0a5985c891c13f1413efa18e58652ad529906f22b7223297fe54f8fe85ee1c7
-SHA512: 9546ed992ebd7aa7222a074c5e06bc65c4aa060f697dc424a24ff4375484dc8a42d842376b0e5ec6313dfd8860096afb17cf96bdc7b313ed815cbf1503cdf202
+Size: 824
+MD5sum: 77b5b049fef479d112c52adc52d3b25f
+SHA1: d69535e37ae0788a6dad1694867d21c85fab1793
+SHA256: 1ed7a3d107ab769ac170f82990f280bc4f9ff7ef5a5ad6b6bec2cfc04cd10148
+SHA512: 8ea3e47984daf1ae2c69df3a453cb7f8cec378f058dd187c0125ba0980fd07c9d1def78b2769e3d06ccd6c8c63ec65a89b909e2428236338cde5c702d33125a3
 Homepage: https://theemeraldisle.family
-Description: dependencies for coolstar's jailbreaks
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
 Tag: role::hacker
-Name: Theos Auto Installer Dependencies for Coolstar
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
 Author: Randy420 <randy.skinner@hotmail.com>
 
