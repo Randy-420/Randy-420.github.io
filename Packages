@@ -1,16 +1,16 @@
 Package: com.randy420.tools
 Architecture: iphoneos-arm
-Version: 2.2
+Version: 2.3
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 2268
+Installed-Size: 2288
 Depends: ws.hbang.common
 Filename: ./debs/420Tools.deb
-Size: 788818
-MD5sum: e05bb6742444c02d77691ff0f3561ee6
-SHA1: d98ca29a26861413f773f6e2e2a85cd04bc92a05
-SHA256: 3fa4a33a2237f61f1d2bfade2a91c38c7925107c9e3515d5d6032f5f8a89f4be
-SHA512: 0daa5f7def35c110c78db4624b2a0b679d35c89b8a41800f4fad55599745225e545e31f0801418172b38d9e05c3483b5acdd9607379a851ce95ddcc6fb66478c
+Size: 798024
+MD5sum: 967f64902f0294e17aff9f2199d0a9ec
+SHA1: e76cc481c7448dd085741bbcfda1ae77f0bfc2c5
+SHA256: dd7bd936739247aca247e9e3dd10be1abb25377f4c129751f098dcf872de1bf4
+SHA512: dcf4ba3bba32879d84a24e4906735cd5c887c9a5b3d58b3c226d3fc7b92da7facc6323bec3cb5057a2d8a436a63e872535c76791516fed71aef30d14ea591e15
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
@@ -64,18 +64,18 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.aptfix
 Architecture: iphoneos-arm
-Version: 0.0.4
+Version: 0.0.5
 Section: Utilities
 Maintainer: Randy420
 Installed-Size: 268
 Depends: mobilesubstrate, com.randy420.tools (>=2.1)
 Replaces: com.randy420.fixcydia
 Filename: ./debs/aptFix.deb
-Size: 12696
-MD5sum: 0afb25c3bba38b86386096988979e425
-SHA1: bf3e023d669a861472a2da8968eb3815a6ecefef
-SHA256: 9ed5768b5ec09204f54b7d854546c406688c9b51d657484c331f2447d3ee3529
-SHA512: 19c605c3b4ead4f58440f5703193c1c9c42fbc0e9bed115504511871a6bd3d0cb53ef209381841425564ee1e803f43a3a4a00caa7686db1fdcf10d197f2c0838
+Size: 13202
+MD5sum: 1353a26c19e54327365dab607d68a986
+SHA1: 75cdfd7a79e45ec1e1ed1e42e01f88fcd346fdfb
+SHA256: a4ee4bd1724d717785cd9f8183b42d75e5c62de73a215b04d2ac203407fc7621
+SHA512: deb75c77b347cb16abea11e0ecf004ae0653ee4386cee327beea432b1880a2914fa896d324b5a3e42a3a17beb5555763a2dbc1889b991a27125c94f3672f46df
 Description: Sometimes, your package manager will kick back an error like "DPKG Locked" or 'apt locked' these errors aren't actually caused by Cydia or other package managers, rather caused by those subprocesses (apt, dpkg, cydo, etc). 
   
  Clear these errors with one simple terminal command. 
@@ -131,11 +131,11 @@ Installed-Size: 480
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
-Size: 67114
-MD5sum: b11a6b2bed09f62afed77e1fd1010cd0
-SHA1: babf072d2585b7d9585e9a91a358a900ebc03d9b
-SHA256: 6f76cb49ea7c3a6166689a36d6595023ce859ee94cff75ea219b631533c42384
-SHA512: b030f5a99780317714581bcbde53a41ead6829fcecac24692ae9e317b13e8f0a8091137f78cb7362e03fe19445f78a8c680962610135e84bebadd6e2c38ad467
+Size: 77530
+MD5sum: 65eac6e529e5da31160db3d679c78bb4
+SHA1: b94c4b26755123434340481835cd349c13efabd0
+SHA256: 3fad72314d100525c00f1d91b5b8fe3d440f5f74dc882439f2c5e343b52c654d
+SHA512: 6284b01ea097888dfa240751ec8f7f237bbaf0473e4e330644665d59d3c364d2e0deada3e16bf4f70ae02e18718145f2e0e0e41886812798cd285d2ac8d5c5b1
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
   
@@ -146,18 +146,18 @@ Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 
 Package: ru.rj.rr
 Architecture: iphoneos-arm
-Version: 0.1.7
+Version: 0.1.8
 Section: Utilities
 Maintainer: Randy420
 Installed-Size: 340
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.randy420.rr
 Filename: ./debs/rr.deb
-Size: 41006
-MD5sum: 8f0bb159c55a55ee874b7dc0ef61ef3b
-SHA1: f9ec5db1b1248ac7a577f2342687760322571ff0
-SHA256: 4f63e27a40bfbf1bc513ad914de9b58d80a265fd42305cfab991851550d0ad93
-SHA512: 4081571b8fde932405617bc7bfa9d93bde351d38e75566d38d932c94f03bb20617586236c430b94eeff690b6aa24ba90f8cad0e261317a5294377c152e9b6aa3
+Size: 41088
+MD5sum: 0ee46706c46f33d4665dc20f8ea070eb
+SHA1: 8f2fc002192312a30e7f4296c464a15477fd3197
+SHA256: b9720356462940f7ca44d92b2ba6d5ce43a9402dc9d0dfcc4ff216abe859b18b
+SHA512: 2a7389e64aacd50f6235f82f93e2861f4fd7194f0871910db9d4b35458bc17288b666881c709a7fbdb6c46632ef952a9bb108d4cc83d5f7e66ca73707fc6c878
 Homepage: https://theemeraldisle.family
 Description: Remove Russian and or Turkish language project files from tweaks using terminal commands- 
   rr 
@@ -169,19 +169,19 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.tai
 Architecture: iphoneos-arm
-Version: 5.1.9-1
+Version: 5.2.0
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 472
-Depends: com.randy420.tools (>= 2.2), com.randy420.taidependsother | com.randy420.taidependscoolstar
+Depends: com.randy420.tools (>= 2.3), com.randy420.taidependsother | com.randy420.taidependscoolstar
 Conflicts: net.howett.theos, com.randy420.encrypt
 Replaces: com.randy420.encrypt
 Filename: ./debs/tai.deb
-Size: 52368
-MD5sum: 3c29e504a4d1e4d8cfd2ea2e4950d737
-SHA1: 88a2592cad6cc4495a26434dada008380de3ac94
-SHA256: 3f5092dc77d43b55990ef88bc06bb10e761f2d809148ae9b381bcaa1208f7b23
-SHA512: 6093599efcadcc35168ed11867d79ba8410fb1f5bdc64b7119245c47c5266b72eef3b7c532676ef979fd5a0b57ceb48ef201ef65f4143c6aad7e663f5069e954
+Size: 53126
+MD5sum: 0d84f9d9d70a87e58d2f69b6968015c7
+SHA1: 6c21bf8b91ae3d5d5649000ed5128d2cfb93b498
+SHA256: c0114c84c37dc97f1c0d36fab6bd4f7e0a711796715259e197e54ad6c2fe025f
+SHA512: c50c2c1a56912ff993b7d49585bc15816d4cb77f954959208d99d5543e71b7f4c067e0ea4567dafbb6d310a1d79db340d2760ab51bf84fc36bc220a7bda202a1
 Homepage: https://theemeraldisle.family
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
  - tai
@@ -196,23 +196,21 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.volumestep.randy420
 Architecture: iphoneos-arm
-Version: 0.2.0
+Version: 2.1
 Section: Tweaks
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 448
-Depends: mobilesubstrate, com.randy420.tools (>=1.7)
+Depends: mobilesubstrate, com.randy420.tools (>=2.3)
 Filename: ./debs/volumeStep.deb
-Size: 43774
-MD5sum: b1055ae1437900b42eceb7aeaf2a98ce
-SHA1: c3c37620514ab32499a436060ba4b58d5d8ea7ef
-SHA256: affed02a549d4ba07fbd7c36573fb28f31f5b771253a00a6dbcd77e38539f2c0
-SHA512: ad4cc591dea0b5226f4f7728dae9408d0ad4a11973b32d97545e90825d64c2cda1403e21650d25ef9c038c3557888599b861529a771e86481082d2ef66d1aef2
-Description: The side volume buttons change the volume by 6.25 percent per click by default. 
- VolumeStep13/14 allows you to customize that between 1 percent and 50 percent 
- - includes CC Toggle 
- - add vibration response on volume key press 
- 
- SHOULD WORK ON IOS 12-15
+Size: 39024
+MD5sum: a2cd75c00859062ec6b46c780e88ce85
+SHA1: f984968f2410a382158dd1ab5823fae310ad1a65
+SHA256: bcdc67a18ca8381b88c2ac984a21045c6ed62cc10a6ab36612ef08dfe3665e33
+SHA512: e3b93b0d89308971b1f431380991cc37d5de3c1f2615a32c60fad1906fffa092a33e09ed9fe2e6007f9355cd7b90be7b47c22b9153108ff9b6757eb25a2e73e0
+Description: The side volume buttons change the volume by 6.25 percent per click by default.
+ VolumeStep13/14 allows you to customize that between 1 percent and 50 percent
+ • includes CC Toggle
+ • add vibration response on volume key press
 Name: VolumeStep13/14
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/volumeStep.html
