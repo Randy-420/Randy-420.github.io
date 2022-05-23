@@ -124,18 +124,18 @@ Author: Randy420
 
 Package: ru.rj.ftt
 Architecture: iphoneos-arm
-Version: 0.8
+Version: 0.9
 Section: Utilities
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 480
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
-Size: 77530
-MD5sum: 65eac6e529e5da31160db3d679c78bb4
-SHA1: b94c4b26755123434340481835cd349c13efabd0
-SHA256: 3fad72314d100525c00f1d91b5b8fe3d440f5f74dc882439f2c5e343b52c654d
-SHA512: 6284b01ea097888dfa240751ec8f7f237bbaf0473e4e330644665d59d3c364d2e0deada3e16bf4f70ae02e18718145f2e0e0e41886812798cd285d2ac8d5c5b1
+Size: 77810
+MD5sum: 90350296e7544eb4e846bb80f44bbaaa
+SHA1: ce2de78db35497cb7f36a4b990860da71fa6573d
+SHA256: f27b6c355f3f7f22b08a3cba91addc9d32beeaf0ca0a9fa4401115fd0bad1849
+SHA512: 0edc3e36642a3267f2003c67313874be51563dc7d672fe19eb36485c697e4eb08d535193cc0afaca838bb3ac3b025d8c0247d612132800dbfaacb3d58689d3cc
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
   
