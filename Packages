@@ -1,16 +1,17 @@
 Package: com.randy420.tools
 Architecture: iphoneos-arm
-Version: 2.3.1
+Version: 2.3.2
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 2616
+Installed-Size: 2288
 Depends: ws.hbang.common
+Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools.deb
-Size: 798186
-MD5sum: 74f80154fcba994108c11ccc62fa2e5a
-SHA1: 9a6352488c75aa9721b61af349a2907df5f47e46
-SHA256: 6e3db94ba4a14862c6d1f1a8b4171a9146b0e3bcff88875730f7509f4fa17d49
-SHA512: b70390603c9d6981facb35bca88af3a465d9bab6148bc339a9c001c96cae8defc48b58be561091116adf42da3a46cded9b7bfef3ac988a21759968213d12b604
+Size: 799402
+MD5sum: 69c82cca1ad1aa67a1b526b02aa4e969
+SHA1: b0794a24fb61dfd0f0faf69d345f00225a8a95f7
+SHA256: 693357447e9db1f2edbe3a8e3d7b0c3508b7e3331c1e1eec767e44217363023a
+SHA512: e49817a856d060aa8531c9e26d83e364027e32910e31ca00e2e0c5df0545a6b2821814ac0b29f0a015c9924f37c345663237f2f089c34bde80b48c1331732965
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
@@ -83,6 +84,50 @@ Description: Sometimes, your package manager will kick back an error like "DPKG 
 Name: aptFix
 Depiction: https://Randy-420.GitHub.io/depic/aptFix.html
 Author: Randy420
+
+Package: com.randy420.taidependscoolstar
+Architecture: iphoneos-arm
+Version: 0.3
+Section: System
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: odcctools, xz-utils, plutil | com.bingner.plutil, lz4
+Conflicts: com.randy420.taidependsother, org.theos.dependencies
+Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
+Filename: ./debs/dependsCool.deb
+Size: 768
+MD5sum: 3eded3e028ef33ddd520e1ce75033639
+SHA1: 50ac6efed53d93d3a86dc9c4bb27e22da9612d2e
+SHA256: bf40520f38064bfa7d6364323c1feafeb3dd04ef255f5c73ac6cfc3fc0cf9b6c
+SHA512: a46dac47c86839a3b557fa710c152cfc50faf11ca02809f411d46dd92819e2ad85f82f50280853e7abca99f7619560fdb2f9a1a0285395c3486076985088c4b2
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Author: Randy420 <randy.skinner@hotmail.com>
+
+Package: com.randy420.taidependsother
+Architecture: iphoneos-arm
+Version: 0.2
+Section: System
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: clang-10, coreutils, coreutils-bin, xz, dpkg, lz4, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, openssl
+Conflicts: com.randy420.taidependscoolstar, org.theos.dependencies, theos-dependencies
+Replaces: com.randy420.taidependscoolstar, org.theos.dependencies, theos-dependencies
+Filename: ./debs/dependsOther.deb
+Size: 790
+MD5sum: 35e3133647423c1310e5d6a58261520a
+SHA1: 386f472570ad0c95e73e6b777ed95449db641038
+SHA256: 86fc432e7f34f717ebeae6b04b8428eecba705a1b00557a1aded41c6b29b39b4
+SHA512: 736e9100eb0590e2f99881bafeed23c0ae3ecc9d82e6a3790a64badfacad06ec0a698790f741ab9ab4b892bd16de12855e3b2c2490520fc734b8f3d37f34b196
+Homepage: https://theemeraldisle.family
+Description: dependencies for all other jailbreaks
+Tag: role::hacker
+Name: Theos Auto Installer Dependencies for All Other Jailbreaks
+Depiction: https://Randy-420.GitHub.io/depic/taidependsother.html
+Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.cpdigitaldarkroom.itsevanesco
 Architecture: iphoneos-arm
@@ -169,19 +214,18 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.tai
 Architecture: iphoneos-arm
-Version: 5.2.0
+Version: 5.2.1
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 472
-Depends: com.randy420.tools (>= 2.3), com.randy420.taidependsother | com.randy420.taidependscoolstar
-Conflicts: net.howett.theos, com.randy420.encrypt
-Replaces: com.randy420.encrypt
+Installed-Size: 476
+Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.kabiroberai.swift-toolchain, com.opa334.ccsupport, xar
+Conflicts: net.howett.theos
 Filename: ./debs/tai.deb
-Size: 53126
-MD5sum: 0d84f9d9d70a87e58d2f69b6968015c7
-SHA1: 6c21bf8b91ae3d5d5649000ed5128d2cfb93b498
-SHA256: c0114c84c37dc97f1c0d36fab6bd4f7e0a711796715259e197e54ad6c2fe025f
-SHA512: c50c2c1a56912ff993b7d49585bc15816d4cb77f954959208d99d5543e71b7f4c067e0ea4567dafbb6d310a1d79db340d2760ab51bf84fc36bc220a7bda202a1
+Size: 58376
+MD5sum: 002fa593311140e2fa84989bfec80257
+SHA1: ab2fdd4bd36c4eef082866d28af712ebd137ee55
+SHA256: 8ab9ec4c14c4620552876336c8dcda6992c590ad70578fe73ad38dc72f16dc98
+SHA512: fc452db57e4ef5094fb90eff04fcd41c5eb66a60c4c77f3ea20a692362a4a828197e479b1333e971ebdb6735178018cafa30e97da4e9d96451168abf5150c125
 Homepage: https://theemeraldisle.family
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
  - tai
