@@ -87,19 +87,19 @@ Author: Randy420
 
 Package: com.randy420.taidependscoolstar
 Architecture: iphoneos-arm
-Version: 0.3
+Version: 0.4
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: odcctools, xz-utils, plutil | com.bingner.plutil, lz4
+Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
 Conflicts: com.randy420.taidependsother, org.theos.dependencies
 Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
 Filename: ./debs/dependsCool.deb
-Size: 768
-MD5sum: 3eded3e028ef33ddd520e1ce75033639
-SHA1: 50ac6efed53d93d3a86dc9c4bb27e22da9612d2e
-SHA256: bf40520f38064bfa7d6364323c1feafeb3dd04ef255f5c73ac6cfc3fc0cf9b6c
-SHA512: a46dac47c86839a3b557fa710c152cfc50faf11ca02809f411d46dd92819e2ad85f82f50280853e7abca99f7619560fdb2f9a1a0285395c3486076985088c4b2
+Size: 772
+MD5sum: ca332c4fba1d5580518452a9a8c4965f
+SHA1: c1f460e5402098ba8022f8eac06f96ac66d34167
+SHA256: 9e2ab585f0513edd20db4cbfbef2285743dab68c910d44450f74980013a36069
+SHA512: 5ed3f10c33f0866358ad3d968b032976e7ad645d5762c3df1a0895bcfaf7397c10c9c8988c5970dd602d32ae7be21febf991e0832f7d63f72521e2e490cc7687
 Homepage: https://theemeraldisle.family
 Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
 Tag: role::hacker
@@ -109,19 +109,19 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.taidependsother
 Architecture: iphoneos-arm
-Version: 0.2
+Version: 0.3
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: clang-10, coreutils, coreutils-bin, xz, dpkg, lz4, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, openssl
+Depends: clang-10, coreutils, coreutils-bin, xz, dpkg, lz4, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, openssl, org.swift.libswift
 Conflicts: com.randy420.taidependscoolstar, org.theos.dependencies, theos-dependencies
 Replaces: com.randy420.taidependscoolstar, org.theos.dependencies, theos-dependencies
 Filename: ./debs/dependsOther.deb
-Size: 790
-MD5sum: 35e3133647423c1310e5d6a58261520a
-SHA1: 386f472570ad0c95e73e6b777ed95449db641038
-SHA256: 86fc432e7f34f717ebeae6b04b8428eecba705a1b00557a1aded41c6b29b39b4
-SHA512: 736e9100eb0590e2f99881bafeed23c0ae3ecc9d82e6a3790a64badfacad06ec0a698790f741ab9ab4b892bd16de12855e3b2c2490520fc734b8f3d37f34b196
+Size: 802
+MD5sum: f6a75c3b7c8a2edfc91e5497b8987ab5
+SHA1: 046ee73a2c95f9f2e3d6ccb5a15b5c64715cf0bf
+SHA256: a2607f10da29975a119b1a5acda6281314c5cb208a7a98d5e253610a0d755bee
+SHA512: 6127c6728dacd08735203bf92e893b477388c8aaf1951e45d4e50845e7489a81654a7332aa655a03b1184e2ac9206a82ae9b6fc721dafceb70c00c4e50a6ebf5
 Homepage: https://theemeraldisle.family
 Description: dependencies for all other jailbreaks
 Tag: role::hacker
@@ -214,18 +214,18 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.tai
 Architecture: iphoneos-arm
-Version: 5.2.1
+Version: 5.2.2
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 476
-Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.kabiroberai.swift-toolchain, com.opa334.ccsupport, xar
+Depends: com.randy420.tools (>= 2.3), clang, curl, git, grep, perl, rsync, unzip, make, ldid, com.opa334.ccsupport, xar
 Conflicts: net.howett.theos
 Filename: ./debs/tai.deb
-Size: 58376
-MD5sum: 002fa593311140e2fa84989bfec80257
-SHA1: ab2fdd4bd36c4eef082866d28af712ebd137ee55
-SHA256: 8ab9ec4c14c4620552876336c8dcda6992c590ad70578fe73ad38dc72f16dc98
-SHA512: fc452db57e4ef5094fb90eff04fcd41c5eb66a60c4c77f3ea20a692362a4a828197e479b1333e971ebdb6735178018cafa30e97da4e9d96451168abf5150c125
+Size: 58572
+MD5sum: 264e35d2073c9d80d444557a75a24afa
+SHA1: 67fd601613f79a493cd853562277bca97d3d974e
+SHA256: 6791ab0f556640002d1cf92b86152fa30f0594607fd056c2597034cbe79c1d7c
+SHA512: 9c22be748592d3fe3db81a5ddc17c4beab6cf6c84d096e5f46858d0c906477458e71a9eeb33bae767b035954c525e23cc66f9f39d57f6b62e9ce59a8ac67e67e
 Homepage: https://theemeraldisle.family
 Description: Install Theos from terminal using a simple terminal command (CONFIGURE FROM SETTINGS AND CONNECT TO WIFI) 
  - tai
