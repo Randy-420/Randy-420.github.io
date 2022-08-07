@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm
 Codename: ios
 Components: main
-Date: Sun, 07 Aug 2022 16:02:45 +0000
+Date: Sun, 07 Aug 2022 16:38:19 +0000
 Description: Simple things… Simpler.
 Label: Randy420's Official Repo
 Origin: Randy420's Repo
@@ -10,28 +10,28 @@ Version: 1.0
 MD5Sum:
  0afde852b3bcc809ac156e1958e2e877            11801 Packages
  b92d8520197aab1adaa3a0e9f7aa7200             4239 Packages.bz2
- 11f7a776704e7cbfac173dd563961c64             4224 Packages.gz
+ 4a03d6c7a38c0a90e8b85c9b78ad378d             4224 Packages.gz
  8b8e678e13667196fbfb430fd649b1da             4032 Packages.xz
  f0b400f0c071d9da1bcb4ae0f63c8b26             4086 Packages.zst
- 6cefb4a23d55e230b81121329c0318b0              219 Release
+ bdfb5b921d459a681b9f5171fd01cfdb              219 Release
 SHA1:
  14bdd5e95dabf882468c6f89cbd057adb74d64aa            11801 Packages
  19f378d455e12d163f0f378524489d7b709d5a2c             4239 Packages.bz2
- f5151ba2a0695b1d87214d49968d413bf1ff204e             4224 Packages.gz
+ e7a55827ca748a80e13ff17f9fa4327d0984d15f             4224 Packages.gz
  300be6e59387d63bbb070a4fa3bfaaf6e73d6e49             4032 Packages.xz
  51bcaa67d82c9fa4ba16c4482cb905dd3319308c             4086 Packages.zst
- e50e95dd03945660a36a76d705084cdf1eef6253              219 Release
+ edd0b6f64d6b85c97741ef29fbacf8c199501c12              219 Release
 SHA256:
  0d212e1ca4321f77edfa178bbc2684c819f08fa854c4a7e3f7f92c8b6f723aaa            11801 Packages
  e27a8cb60cc97fc6afc2fac96b6afb7dbd2960736fef9e0831190a6e4bedba0e             4239 Packages.bz2
- a9033330117dd1feb70496b8b1cec6392892b4e59360bd50450ca842b56f9967             4224 Packages.gz
+ 388c5c53245353ac4b86923f715b162f8b5848314f20391ed4410aca313fb0a9             4224 Packages.gz
  f6c3e95fb017d0ecd599811b8929e8537444b9dc15219753f504b9d83b729709             4032 Packages.xz
  6f7e7abea8fd7afe262adbce68ca04a2e0182eacf0b9c35af7b55b94a1d523d6             4086 Packages.zst
- 9a37ce1f508e65a8b27dbfdfe083bdf60fca4079acc02f5994503b6d6f62b1b5              219 Release
+ 240faa72d1c1e502cd031f4e2553739056d45062c43c661d70a60e161e2ccdb2              219 Release
 SHA512:
  d88df5ef49e8cff1246d2924ccf3be76c357da4bced4b45426fbb17ad732ddeee711adc902b13e5c545691999661be4921a0c4986a947425b4ccda2e83fa6717            11801 Packages
  40a8e95af8bcc5ff8ebdf9908013a7160521dcebb434a9522278bd1430046725b631ae07ee8138b61949df19aed5afd4520a63c7ca683789bda00a717bb5269c             4239 Packages.bz2
- 4bcee0203033700cf8ade708d76bf09f8708ea37821d6dc7b0001dc95de0feb0a78079de17c5838c1ea0ff588a5462dbc4f7174b4c63b9f8c0c9ee8a5dad6504             4224 Packages.gz
+ 7d5f1dfa2f53ff796d18d44db5bd8af4cf4388eb815e32831971b14e76ec936aeef91c1a7d00e8b38c457deb6f03f27175f1c4d1f84deae1e682c3d7dea01f65             4224 Packages.gz
  036bdd816699ec581cf135cf39178d9e488dcbd0eb5a61065acb98ecdc298a39255d1839d2b332d126d9cd88ede6be00cca3a79a21048b71c6f084c8e5a62e06             4032 Packages.xz
  eac50467dba49150fb481dab13ab6f17f75997c8749c516c2c3e88b0dfc8ba9eff2f79d266dc360310f47e61dccdde4c060516e75d9a1bfcf83f42a64f63126c             4086 Packages.zst
- 700d45945a0ffd3521222ce822414cafdeb87af73fe5147b4ff2fbc565c12a887a58a769810f751410b0cae490d91bcd59735335301c1b3f68494bfa71ba0e69              219 Release
+ d9a3561a092d04fcea6bf1f07eeabf32c35194554f17bf810801e3d394400f832696399c8d2e9a2b062aa83f5ee572c60094da9de8f585e9b4b7bca404ed1108              219 Release
