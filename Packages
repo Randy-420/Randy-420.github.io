@@ -1,17 +1,17 @@
 Package: com.randy420.tools
 Architecture: iphoneos-arm
-Version: 2.3.4
+Version: 2.3.5
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 2288
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools.deb
-Size: 798384
-MD5sum: 3848008d377406bd54a89fd129b980c6
-SHA1: 832f22972e16afaf47983a5763816e10d64319da
-SHA256: 03f1d8b8867e3e7e030a214b30bc17b97d88549b2f1424777a96d96cd9af34a5
-SHA512: a6b4e8175fd657112db6083d5bffc4c1defc2bfe4320babaa5aa930344a6bb5f8b60937c472e763f13ba64bfaa7f8c4bc142dc7fc38bbd5120e21a500dc09e86
+Size: 797502
+MD5sum: 2283dfd51c88d0d6bd668c309cc7568e
+SHA1: cbed3e3e65e198d7246c03dee4ab7d7c330b127a
+SHA256: 00253fafc99c826d61ccee9dc6055992f51c657af98d4c79cef3e7f51223344d
+SHA512: d840d115c7756facc65c805e860a5626da3d0116ad59bc97e2c71b5a5395b0427b64254de91493fd0a66766c57c8edfaacda64a7f795c287de54a0e1aa208b8b
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
