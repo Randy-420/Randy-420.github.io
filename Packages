@@ -1,17 +1,17 @@
 Package: com.randy420.tools
 Architecture: iphoneos-arm
-Version: 2.3.5
+Version: 2.3.6
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 2288
 Depends: ws.hbang.common
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools.deb
-Size: 797502
-MD5sum: 2283dfd51c88d0d6bd668c309cc7568e
-SHA1: cbed3e3e65e198d7246c03dee4ab7d7c330b127a
-SHA256: 00253fafc99c826d61ccee9dc6055992f51c657af98d4c79cef3e7f51223344d
-SHA512: d840d115c7756facc65c805e860a5626da3d0116ad59bc97e2c71b5a5395b0427b64254de91493fd0a66766c57c8edfaacda64a7f795c287de54a0e1aa208b8b
+Size: 797462
+MD5sum: 9ff7f2325e6c4f79f939737828c0f036
+SHA1: e0d3aa7f82e7e2ca99c68e2e0aeb0104eb1bd5ff
+SHA256: c84608a7b33cc162e41d510c050fd5ce230b42a0366a8cd9995a34bd6ea0e68e
+SHA512: d7f85ce2435d669596e4f7293636038f97f44cb3fda08d978e09cdff1deae2a3f537480f34fc7b784cd1651db1f41f114c15ac09a05b2a6298da7587044d8f99
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
@@ -169,18 +169,18 @@ Author: Randy420
 
 Package: ru.rj.ftt
 Architecture: iphoneos-arm
-Version: 1.0
+Version: 1.1
 Section: Utilities
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 480
+Installed-Size: 484
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
-Size: 77572
-MD5sum: 8c3ba83e141815d49ec5229cd40319c9
-SHA1: 1015a101c9afd75b342f9975db560ede2bbcf377
-SHA256: b79ea8411b36b49871f3598c440b4ee142e92daff4773a61690140f426c04fb9
-SHA512: ca7271a56b37326fc9ce0bd64f91f239aca248b46e6ed0ea475f20dba3744f0eb3522936739ff58c211ada6a350c1bc54ad133a74624f874971028f8f6830cb7
+Size: 81506
+MD5sum: 046679312d722002c9be027f814ef1f6
+SHA1: edc0fe7bb8c332820a32646daa19928b66abd547
+SHA256: 3cc6a9957ee399b38890fcd2309647b479a3dd02110d2f6e4c08d6729a826fe5
+SHA512: 88dbc44368c4b6f3714cd436552bc5829249b052b05790ccd1147e776357aa8c622ad9eb6bc52a438ce108464f37f78dfa95fe6cd9c7bffbebb724532eba2687
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
   
