@@ -63,6 +63,26 @@ Name: Theos Auto Installer Dependencies for All Other Jailbreaks
 Depiction: https://Randy-420.GitHub.io/depic/taidependsother.html
 Author: Randy420 <randy.skinner@hotmail.com>
 
+Package: com.turann.randy420.appfetch
+Architecture: iphoneos-arm
+Version: 0.1
+Section: System
+Maintainer: Turann and Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 8
+Depends: curl, jq, wget
+Filename: ./debs/appfetch.deb
+Size: 3026
+MD5sum: 6c0c67df33c3980c2e0be8f312622cd3
+SHA1: a8bc19ee9f053c6c3e5d91f597f2315fc8761ad9
+SHA256: 3f696ad7b0262eac502f8083bc6783a68a7c71e9e17fc9220d5d463fc2bc977b
+SHA512: dcc5bcbcf669d6da9e1c770956a4fb11549bf6e62097024b2d404929fc0fb62296c63f1453e6f82afc52bfd68bd33497dd0fa3d0be899aa683316edb74aacf65
+Homepage: https://theemeraldisle.family
+Description: nscake+
+Tag: role::hacker
+Name: appfetch
+Depiction: https://Randy-420.GitHub.io/depic/appfetch.html
+Author: Turann and Randy420 <randy.skinner@hotmail.com>
+
 Package: com.randy420.aptfix
 Architecture: iphoneos-arm
 Version: 0.0.5
