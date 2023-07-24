@@ -65,17 +65,17 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.turann.randy420.appfetch
 Architecture: iphoneos-arm
-Version: 0.7
+Version: 0.8
 Section: System
 Maintainer: Turann and Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 12
 Depends: curl, jq, wget
 Filename: ./debs/appfetch.deb
-Size: 3642
-MD5sum: ae6c53f056975855b32a020d2e038812
-SHA1: e5f13136eae2ad7b2203fb579fd1a1310bdbd781
-SHA256: 968451c206ead914d317082fabe0fb218662e795dfd045a0a98d5d86aead32e7
-SHA512: f4b2c0d9098df7b7cb99f3381c11d5f6dea0a026e31b940bdad9eac2a74023748a4d1f38d2d8b636fcab5acb8c0afc5b4794f6962f010da1bf76ff022cce051e
+Size: 3898
+MD5sum: a7845b56b8d1e05ba14b03d656042cb7
+SHA1: 9296c6a516e2086a646e28089eb1b7eed2216fdd
+SHA256: bab2bd31d6b1f2ca15d3fd3cf9a736eb67633ecf41c0712f5a8f309eb13d344a
+SHA512: 046b1a6d917656561131ca473c8f852bad88f6b791088f3ef75b65e115cb3373548faf5008e10a12495083869fdd9b64f7c6bc9dbf74a5da365040029ff1d123
 Homepage: https://theemeraldisle.family
 Description: nscake+
 Tag: role::hacker
