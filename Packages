@@ -21,17 +21,17 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.crackerxipatch
 Architecture: iphoneos-arm
-Version: 4.2.0
+Version: 4.2.1
 Section: Tweaks
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 72
-Depends: mobilesubstrate
+Depends: mobilesubstrate, com.ipc.crackerxi
 Filename: ./debs/CrackerXI.deb
-Size: 1822
-MD5sum: 3c7e173c9f419de59920fffae8726da0
-SHA1: 93d49c3e7ebc1ee819f62c36a9e735301315de4a
-SHA256: ac2bec791e8313b44216ae98bd3a094dd9423d5b2bd09d519503f44cfe1e4155
-SHA512: 7a05a044643670706a283433ccc6ffcf1b8e02b33b6e121471506c118ee2548570da20218e2b83fd11b98710dc1cca411207b81681d81750b1390bc4957308ff
+Size: 1828
+MD5sum: 94e57a4d8dae56bdd957d0a16ca7a81e
+SHA1: 826e1b98f88df5d2334d03b5b1b9fda6f441bc4e
+SHA256: d72952bc55324320b0e21df3cc3a22599184b06eed9bc50be0b1e51bd1883bed
+SHA512: 10ee7b70dbdd13cd1edc399c536bd651d896c9b7d8fffd735a16cd34c7ed840579e0feccd91164f16e73170d8c10f52f23afbfb5f62e142249f7aecad41c0f21
 Description: ***Alphabetically order the applications. It's stupid this wasn't a thought in the first place.***
 Name: CrackerXI+ Patch
 Author: Randy420 <randy.skinner@hotmail.com>
