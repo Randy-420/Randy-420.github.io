@@ -27,11 +27,11 @@ Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 72
 Depends: mobilesubstrate
 Filename: ./debs/CrackerXI.deb
-Size: 1818
-MD5sum: 4380ab4ad002e0d27d0d4e8740e96760
-SHA1: 3d9f2b88101795f7c823eff888d4914e2ee6b95e
-SHA256: 2e216f92e75ccc561fe23d86313b40e088aa318e9ceb81ed2c93eed2ec572997
-SHA512: c03846283a2ad1ee2bfe37f01ce3afc2ef7bea40e5f69fb7a0b980685991fe9d1279452f300ca499dcd973e5915683686fb5961e5ab7721431b635aa0073a604
+Size: 1822
+MD5sum: 3c7e173c9f419de59920fffae8726da0
+SHA1: 93d49c3e7ebc1ee819f62c36a9e735301315de4a
+SHA256: ac2bec791e8313b44216ae98bd3a094dd9423d5b2bd09d519503f44cfe1e4155
+SHA512: 7a05a044643670706a283433ccc6ffcf1b8e02b33b6e121471506c118ee2548570da20218e2b83fd11b98710dc1cca411207b81681d81750b1390bc4957308ff
 Description: ***Alphabetically order the applications. It's stupid this wasn't a thought in the first place.***
 Name: CrackerXI+ Patch
 Author: Randy420 <randy.skinner@hotmail.com>
