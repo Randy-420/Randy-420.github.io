@@ -19,6 +19,24 @@ Name: 420 Tools
 Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
 Author: Randy420 <randy.skinner@hotmail.com>
 
+Package: com.randy420.crackerxipatch
+Architecture: iphoneos-arm
+Version: 4.2.0
+Section: Tweaks
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/CrackerXI.deb
+Size: 1818
+MD5sum: 4380ab4ad002e0d27d0d4e8740e96760
+SHA1: 3d9f2b88101795f7c823eff888d4914e2ee6b95e
+SHA256: 2e216f92e75ccc561fe23d86313b40e088aa318e9ceb81ed2c93eed2ec572997
+SHA512: c03846283a2ad1ee2bfe37f01ce3afc2ef7bea40e5f69fb7a0b980685991fe9d1279452f300ca499dcd973e5915683686fb5961e5ab7721431b635aa0073a604
+Description: ***Alphabetically order the applications. It's stupid this wasn't a thought in the first place.***
+Name: CrackerXI+ Patch
+Author: Randy420 <randy.skinner@hotmail.com>
+Depiction: https://Randy-420.GitHub.io/depic/CrackerXI.html
+
 Package: com.randy420.taidependscoolstar
 Architecture: iphoneos-arm
 Version: 0.2
