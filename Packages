@@ -21,17 +21,17 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.crackerxipatch
 Architecture: iphoneos-arm
-Version: 4.2.1
+Version: 4.2.2
 Section: Tweaks
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 72
-Depends: mobilesubstrate, com.ipc.crackerxi
+Depends: mobilesubstrate, com.ipc.crackerxi | cydia.com.ipc.crackerxi | xyz.cypwn.xyz
 Filename: ./debs/CrackerXI.deb
-Size: 1828
-MD5sum: 94e57a4d8dae56bdd957d0a16ca7a81e
-SHA1: 826e1b98f88df5d2334d03b5b1b9fda6f441bc4e
-SHA256: d72952bc55324320b0e21df3cc3a22599184b06eed9bc50be0b1e51bd1883bed
-SHA512: 10ee7b70dbdd13cd1edc399c536bd651d896c9b7d8fffd735a16cd34c7ed840579e0feccd91164f16e73170d8c10f52f23afbfb5f62e142249f7aecad41c0f21
+Size: 1842
+MD5sum: f35c3e209e1aed6909ec1fadb80a60e5
+SHA1: 1ec442f309f2abc461466489c3c926c5d04e5abc
+SHA256: ad320ee09ef7a2a6753b552325d063e0232374c9dc3dcd5d153edae5b63b7a7d
+SHA512: 8cf8d4258805abd87baf3c4cfd9fb84565ec556f093680a677675084d6a539d23cc40a85eaedf6d94afcdc89a7af77227c80cdeff2ff0e28e820251b5806ad3e
 Description: ***Alphabetically order the applications. It's stupid this wasn't a thought in the first place.***
 Name: CrackerXI+ Patch
 Author: Randy420 <randy.skinner@hotmail.com>
