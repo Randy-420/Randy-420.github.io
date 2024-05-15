@@ -168,19 +168,19 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.taidependsother
 Architecture: iphoneos-arm
-Version: 0.5
+Version: 0.6
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz, com.kabiroberai.swift-toolchain
+Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz
 Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Filename: ./debs/dependsOther.deb
-Size: 810
-MD5sum: aebc71b21b4b273bda63906d017fdca7
-SHA1: 538862cc4dba51505ced532cc5a102c39cf842a7
-SHA256: d645ef91a24b0e4e39d02fad24a0bc3d470daafdd4c520d1afbc9f749de79ae3
-SHA512: c325ccd48867f4942feaf940b0b591ab0f331763336d42008ce99bb16cfae5a8e62f2bc4f0bd2d72c07f1f6b1fa4ed37de91f18bb2475525bb93f70dcb6795a0
+Size: 790
+MD5sum: 64b1649fc24de604805a8fbc7e24ae6e
+SHA1: 5bf7f9ef5676dc8d533a2f83e32d604b630615ff
+SHA256: 9f81ba801448be4fa58f14eb3f385d74abd0eac1d5e60002fc85eedadb957312
+SHA512: 982cc056790c2b884ed78542b706eff642537d8b2829d26420d773325478a8ca403128c9e5086cfdcf2cddb83db5e3c31d1ad25edc081dc74ca6c1e17d1e4822
 Homepage: https://theemeraldisle.family
 Description: dependencies for all other jailbreaks
 Tag: role::hacker
@@ -190,19 +190,19 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.taidependsother
 Architecture: iphoneos-arm64
-Version: 0.5
+Version: 0.6
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz, com.kabiroberai.swift-toolchain
+Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz
 Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Filename: ./debs/dependsOther_rootless.deb
-Size: 812
-MD5sum: 1a1d39f67c33a1a34e290d602bb4a421
-SHA1: 2149b974f1caa473f64a99090ac5250b122749a9
-SHA256: f46ca8fc4d72eac53d364fc19a74334ec4476124fdd3575bbf1f60c8169149b0
-SHA512: aebfee93e9b75a970769a549835a15d665666e176efeb323e109f36aca929c944c335144567efa5fdb4bea8c0bd7a3f82938bf7ec6d191571df1c7dbd6051d77
+Size: 792
+MD5sum: a014de5d9fd960281e1b79ec0a0eae42
+SHA1: 921d7cd357f78bc4a14a7800cd0b44175f306250
+SHA256: ba18870898a489f0a696944c8ee763c0c106ca3501d0955862ac7092faa151c0
+SHA512: 49b1f4247fe5c0176728c4bf5ee535f72b730be8f87e72a0f2c3bd11c7b70104cfc4ddbab38bb1238d87eb17ebfc19f718e18c47a9130cfda7d1487f1d87842d
 Homepage: https://theemeraldisle.family
 Description: dependencies for all other jailbreaks
 Tag: role::hacker
