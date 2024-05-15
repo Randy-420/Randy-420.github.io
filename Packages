@@ -250,18 +250,18 @@ Author: Randy420
 
 Package: ru.rj.ftt
 Architecture: iphoneos-arm
-Version: 1.2
+Version: 1.3
 Section: Utilities
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 1300
-Depends: mobilesubstrate, com.randy420.tools (>=2.2)
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
-Size: 355688
-MD5sum: 0db54520f432d05e6cbcf4f64d7c1265
-SHA1: ce0a677314724b4ba9356980f2da2a62d8643193
-SHA256: 35201cf0348d6f42fbfbd35cd0726e067bad4cbc125f62e63dab51395079117d
-SHA512: a17bab31c7b1ee3c23d6a51122c395765dd8945b0235e8ce6b4d8604d74e85a5969038ae23937d31f7caa05aef9ac81e773bf21b42e1e71e81cde5e21284d681
+Size: 355764
+MD5sum: 57a9e29a390ae1545d85497a0e40bfa2
+SHA1: 54302615c8252f88378f070c065175ca3eef18ce
+SHA256: 0f1416108c4287baed9b164015f138876e2413a273fa8633415585dc4205db91
+SHA512: ed9c5d6ae4f6d87f4b4fc006188639ad30c427071ba39bc5cbc26e422e4a44ac11bd406b020f46094edffd438758ec6eaeb1763be9ff468003417223c1e59bf9
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
   
@@ -272,18 +272,18 @@ Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
 
 Package: ru.rj.ftt
 Architecture: iphoneos-arm64
-Version: 1.2
+Version: 1.3
 Section: Utilities
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 1300
-Depends: mobilesubstrate, com.randy420.tools (>=2.2)
+Depends: mobilesubstrate, com.randy420.tools (>=2.3.7)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt_rootless.deb
-Size: 355692
-MD5sum: c495c613aed17df7614ef65f768c0c33
-SHA1: 255b8ba906338d7cb96c99bcfe1b87ba67925a8e
-SHA256: 0da8414359651b49429453d37e0f93e06d3053952706716b37f4f470fe639665
-SHA512: 92bbf34767fa87e213f7c050032f1aaf606fde583f819406d8913d2dd762c5b9a66ae50ad39b7891713c8c044b84b29deb1726fbf2d0a646519aa2e7c58acbda
+Size: 355696
+MD5sum: 661c96d087572a2611b6d38084ee67e8
+SHA1: 6e1a91fd4230976687e4bae5b591bdc0c33ce9ce
+SHA256: ef68694144c2bc12e8d7a7b168797e8e50aa4f388fbeaa081f2cb08aa4c19cf6
+SHA512: 1830d1b2a98efcee476d97a8abf5d7fe3bd232c9a5ba40866fc181872a26281e5296a067c1d79243c23b7d30f11614c2191b9dfff354814006256703bb25a406
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
   
