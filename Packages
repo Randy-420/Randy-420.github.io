@@ -1,17 +1,38 @@
 Package: com.randy420.tools
 Architecture: iphoneos-arm
-Version: 2.3.6
+Version: 2.3.7
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 2288
-Depends: ws.hbang.common
+Installed-Size: 3104
+Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools.deb
-Size: 797462
-MD5sum: 9ff7f2325e6c4f79f939737828c0f036
-SHA1: e0d3aa7f82e7e2ca99c68e2e0aeb0104eb1bd5ff
-SHA256: c84608a7b33cc162e41d510c050fd5ce230b42a0366a8cd9995a34bd6ea0e68e
-SHA512: d7f85ce2435d669596e4f7293636038f97f44cb3fda08d978e09cdff1deae2a3f537480f34fc7b784cd1651db1f41f114c15ac09a05b2a6298da7587044d8f99
+Size: 695984
+MD5sum: 5cc7dc8981b803e9de1d6182109abc37
+SHA1: fbcea8ef68fc554deecf190153366ec3a06bd1f2
+SHA256: b0b1a650c39479983655be807b3e06c03b27af8e28a162ff508cb425e47d215f
+SHA512: 9d94e2e6f107119c73ddbd4bbd38a58a0277d8b6fe8b0a02039a74dfcb65ca6cf835ce14aaf3ea6183428dc0368c607ab1b3341b7a079687eaf0e6b4d53ce245
+Homepage: https://theemeraldisle.family
+Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
+Tag: role::hacker
+Name: 420 Tools
+Depiction: https://Randy-420.GitHub.io/depic/420Tools.html
+Author: Randy420 <randy.skinner@hotmail.com>
+
+Package: com.randy420.tools
+Architecture: iphoneos-arm64
+Version: 2.3.7
+Section: System
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 2348
+Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
+Replaces: com.randy420.encrypt
+Filename: ./debs/420Tools_rootless.deb
+Size: 546944
+MD5sum: f725eb9229ab495918cb493c696a4bd6
+SHA1: 9590481f8967df4a6f17b181f993e0157b015d76
+SHA256: c24c6f1b6bbd4445fcfdfbe189a7982214c6a45e73d906198507ec87d11726e1
+SHA512: a1b14cb6d70e4e73f8ee8864c59a5722283bace45ed2e704f53c82456e81f95b016ea440a2c095e024e942694d05e07eb176762dc16d33006481bcbab320c2be
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
@@ -36,50 +57,6 @@ Description: ***Alphabetically order the applications. It's stupid this wasn't a
 Name: CrackerXI+ Patch
 Author: Randy420 <randy.skinner@hotmail.com>
 Depiction: https://Randy-420.GitHub.io/depic/CrackerXI.html
-
-Package: com.randy420.taidependscoolstar
-Architecture: iphoneos-arm
-Version: 0.2
-Section: System
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 0
-Depends: clang, odcctools, curl, git, grep, perl, rsync, unzip, xz-utils, make, ldid, plutil, com.kabiroberai.swift-toolchain, com.opa334.ccsupport, xar, lz4
-Conflicts: com.randy420.taidependsother, org.theos.dependencies
-Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
-Filename: ./debs/Theos-Depends/dependsCool.deb
-Size: 824
-MD5sum: 77b5b049fef479d112c52adc52d3b25f
-SHA1: d69535e37ae0788a6dad1694867d21c85fab1793
-SHA256: 1ed7a3d107ab769ac170f82990f280bc4f9ff7ef5a5ad6b6bec2cfc04cd10148
-SHA512: 8ea3e47984daf1ae2c69df3a453cb7f8cec378f058dd187c0125ba0980fd07c9d1def78b2769e3d06ccd6c8c63ec65a89b909e2428236338cde5c702d33125a3
-Homepage: https://theemeraldisle.family
-Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
-Tag: role::hacker
-Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
-Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
-Author: Randy420 <randy.skinner@hotmail.com>
-
-Package: com.randy420.taidependsother
-Architecture: iphoneos-arm
-Version: 0.1
-Section: System
-Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 0
-Depends: clang, clang-10, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport, xar
-Conflicts: com.randy420.taidependscoolstar, org.theos.dependencies, theos-dependencies
-Replaces: com.randy420.taidependscoolstar, org.theos.dependencies, theos-dependencies
-Filename: ./debs/Theos-Depends/dependsOther.deb
-Size: 870
-MD5sum: 1457aadc30cc6326034ba762eb706015
-SHA1: d19731b3523dd62f3a8f8cf2ed765a7579e9ffc1
-SHA256: 02cb8e1b569354684d972ef9a20fb73a9defe9544636a0a70c34f704f6db762f
-SHA512: 0b497e272272e4ed829a9385c558c4f7472d1981bdebfc9a48a7b5f7c9597e89b396ab66d8207052fe42553b8a4bad13559892c906a5ff70906455a3c864c1d9
-Homepage: https://theemeraldisle.family
-Description: dependencies for all other jailbreaks
-Tag: role::hacker
-Name: Theos Auto Installer Dependencies for All Other Jailbreaks
-Depiction: https://Randy-420.GitHub.io/depic/taidependsother.html
-Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.turann.randy420.appfetch
 Architecture: iphoneos-arm
@@ -125,19 +102,19 @@ Author: Randy420
 
 Package: com.randy420.taidependscoolstar
 Architecture: iphoneos-arm
-Version: 0.4
+Version: 0.6
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: odcctools, lz4, swift, xz-utils, plutil | com.bingner.plutil
-Conflicts: com.randy420.taidependsother, org.theos.dependencies
-Replaces: com.randy420.taidependsother, org.theos.dependencies, theos-dependencies
+Depends: theos-dependencies, swift
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
 Filename: ./debs/dependsCool.deb
-Size: 772
-MD5sum: ca332c4fba1d5580518452a9a8c4965f
-SHA1: c1f460e5402098ba8022f8eac06f96ac66d34167
-SHA256: 9e2ab585f0513edd20db4cbfbef2285743dab68c910d44450f74980013a36069
-SHA512: 5ed3f10c33f0866358ad3d968b032976e7ad645d5762c3df1a0895bcfaf7397c10c9c8988c5970dd602d32ae7be21febf991e0832f7d63f72521e2e490cc7687
+Size: 740
+MD5sum: 4c9ba63220a1b61c0fbf363e4f3ce040
+SHA1: 946b52c614f1807b1d2ddd480e5e2d063bd951f5
+SHA256: 5d197e3305724563543ddaaa7f07e52a7c12f5e9a688fbd1ec082612b14cc2cd
+SHA512: c2923f23d182f124d354fd199a898c6334985446fed58bcfc4e4f9aef64cfa8f48831a865b74414a32a242d751fb09ea2d110db2aced0eac71065e4031abec6e
 Homepage: https://theemeraldisle.family
 Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
 Tag: role::hacker
@@ -145,21 +122,87 @@ Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
 Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
 Author: Randy420 <randy.skinner@hotmail.com>
 
-Package: com.randy420.taidependsother
-Architecture: iphoneos-arm
-Version: 0.3
+Package: com.randy420.taidependscoolstar
+Architecture: iphoneos-arm64
+Version: 0.6
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
 Installed-Size: 0
-Depends: clang-10, coreutils, coreutils-bin, xz, dpkg, lz4, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, openssl, org.swift.libswift
-Conflicts: com.randy420.taidependscoolstar, org.theos.dependencies, theos-dependencies
-Replaces: com.randy420.taidependscoolstar, org.theos.dependencies, theos-dependencies
+Depends: theos-dependencies, swift
+Conflicts: com.randy420.taidependsother, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependsother, com.randy420.taidependslegacy
+Filename: ./debs/dependsCool_rootless.deb
+Size: 742
+MD5sum: b2ffd785230431869138207a2b225b43
+SHA1: f4b4ce38fbd108f30b759d87e0a13561949f5b93
+SHA256: 66182da37ec04cacfc009300487a6fed484c391ffee21a63dbc0478f7959e645
+SHA512: 07076272c322ad2bad6a76bebc6f1b048b03414790d330f77b85ace86b0454f7548b19c9627fd78d648f6fc6af860404e2828d790f9cb10cad42e152a689e78e
+Homepage: https://theemeraldisle.family
+Description: Dependencies for Procursus based jailbreaks (known as coolstar jailbreaks)
+Tag: role::hacker
+Name: Theos Auto Installer Dependencies for Procursus based jailbreaks
+Depiction: https://Randy-420.GitHub.io/depic/taidependscoolstar.html
+Author: Randy420 <randy.skinner@hotmail.com>
+
+Package: com.randy420.taidependslegacy
+Architecture: iphoneos-arm
+Version: 0.1
+Section: System
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: org.theos.dependencies, firmware (<= 12.0)
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependsother
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependsother
+Filename: ./debs/dependsLegacy.deb
+Size: 736
+MD5sum: f5a5ccca7204ab23e3c0c156eaf6e8a1
+SHA1: 2a9bb4e44011c5d97c08c04c85f918717bd1a67b
+SHA256: e20c87052360b4085987652c1459879cbbdd68b6b8d6ff535cc1811eff64c12e
+SHA512: 0adfbe586f4ae12fe6db42a1518ced195023916e467c5442a36023f8561f673eef5db53f23d7bf8f02836f67704b744dca36da025458e89b0115d2b9e9e5e8e4
+Homepage: https://theemeraldisle.family
+Description: dependencies for legacy jailbreaks
+Tag: role::hacker
+Name: Theos Auto Installer Dependencies for Legacy Jailbreaks
+Depiction: https://Randy-420.GitHub.io/depic/taidependslegacy.html
+Author: Randy420 <randy.skinner@hotmail.com>
+
+Package: com.randy420.taidependsother
+Architecture: iphoneos-arm
+Version: 0.5
+Section: System
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz, com.kabiroberai.swift-toolchain
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
 Filename: ./debs/dependsOther.deb
-Size: 802
-MD5sum: f6a75c3b7c8a2edfc91e5497b8987ab5
-SHA1: 046ee73a2c95f9f2e3d6ccb5a15b5c64715cf0bf
-SHA256: a2607f10da29975a119b1a5acda6281314c5cb208a7a98d5e253610a0d755bee
-SHA512: 6127c6728dacd08735203bf92e893b477388c8aaf1951e45d4e50845e7489a81654a7332aa655a03b1184e2ac9206a82ae9b6fc721dafceb70c00c4e50a6ebf5
+Size: 810
+MD5sum: aebc71b21b4b273bda63906d017fdca7
+SHA1: 538862cc4dba51505ced532cc5a102c39cf842a7
+SHA256: d645ef91a24b0e4e39d02fad24a0bc3d470daafdd4c520d1afbc9f749de79ae3
+SHA512: c325ccd48867f4942feaf940b0b591ab0f331763336d42008ce99bb16cfae5a8e62f2bc4f0bd2d72c07f1f6b1fa4ed37de91f18bb2475525bb93f70dcb6795a0
+Homepage: https://theemeraldisle.family
+Description: dependencies for all other jailbreaks
+Tag: role::hacker
+Name: Theos Auto Installer Dependencies for All Other Jailbreaks
+Depiction: https://Randy-420.GitHub.io/depic/taidependsother.html
+Author: Randy420 <randy.skinner@hotmail.com>
+
+Package: com.randy420.taidependsother
+Architecture: iphoneos-arm64
+Version: 0.5
+Section: System
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 0
+Depends: ca-certificates, clang, coreutils, curl, dpkg, git, grep, ldid, make, odcctools, perl, com.bingner.plutil, rsync, xz, com.kabiroberai.swift-toolchain
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependslegacy
+Filename: ./debs/dependsOther_rootless.deb
+Size: 812
+MD5sum: 1a1d39f67c33a1a34e290d602bb4a421
+SHA1: 2149b974f1caa473f64a99090ac5250b122749a9
+SHA256: f46ca8fc4d72eac53d364fc19a74334ec4476124fdd3575bbf1f60c8169149b0
+SHA512: aebfee93e9b75a970769a549835a15d665666e176efeb323e109f36aca929c944c335144567efa5fdb4bea8c0bd7a3f82938bf7ec6d191571df1c7dbd6051d77
 Homepage: https://theemeraldisle.family
 Description: dependencies for all other jailbreaks
 Tag: role::hacker
@@ -207,18 +250,40 @@ Author: Randy420
 
 Package: ru.rj.ftt
 Architecture: iphoneos-arm
-Version: 1.1
+Version: 1.2
 Section: Utilities
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 484
+Installed-Size: 1300
 Depends: mobilesubstrate, com.randy420.tools (>=2.2)
 Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
 Filename: ./debs/ftt.deb
-Size: 81506
-MD5sum: 046679312d722002c9be027f814ef1f6
-SHA1: edc0fe7bb8c332820a32646daa19928b66abd547
-SHA256: 3cc6a9957ee399b38890fcd2309647b479a3dd02110d2f6e4c08d6729a826fe5
-SHA512: 88dbc44368c4b6f3714cd436552bc5829249b052b05790ccd1147e776357aa8c622ad9eb6bc52a438ce108464f37f78dfa95fe6cd9c7bffbebb724532eba2687
+Size: 355688
+MD5sum: 0db54520f432d05e6cbcf4f64d7c1265
+SHA1: ce0a677314724b4ba9356980f2da2a62d8643193
+SHA256: 35201cf0348d6f42fbfbd35cd0726e067bad4cbc125f62e63dab51395079117d
+SHA512: a17bab31c7b1ee3c23d6a51122c395765dd8945b0235e8ce6b4d8604d74e85a5969038ae23937d31f7caa05aef9ac81e773bf21b42e1e71e81cde5e21284d681
+Homepage: https://theemeraldisle.family
+Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
+  
+ - Use 'ftt -?' For a full list of options.
+Name: Flex To Theos
+Depiction: https://Randy-420.GitHub.io/depic/ftt.html
+Author: ipad_kid_Randy420 <ipadkid358@gmail.com, randy.skinner@hotmail.com>
+
+Package: ru.rj.ftt
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Utilities
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Installed-Size: 1300
+Depends: mobilesubstrate, com.randy420.tools (>=2.2)
+Replaces: com.ipadkid.ftt, com.azmilaila.ftt, com.ceadd.flextotheosbyipadkid358, com.randy420.ipadkid.ftt
+Filename: ./debs/ftt_rootless.deb
+Size: 355692
+MD5sum: c495c613aed17df7614ef65f768c0c33
+SHA1: 255b8ba906338d7cb96c99bcfe1b87ba67925a8e
+SHA256: 0da8414359651b49429453d37e0f93e06d3053952706716b37f4f470fe639665
+SHA512: 92bbf34767fa87e213f7c050032f1aaf606fde583f819406d8913d2dd762c5b9a66ae50ad39b7891713c8c044b84b29deb1726fbf2d0a646519aa2e7c58acbda
 Homepage: https://theemeraldisle.family
 Description: First made by iPadkid358 - then updated by myself. Change Flex 3 patches into Theos projects using simple terminal commands. 
   
