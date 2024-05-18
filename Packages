@@ -1,17 +1,17 @@
 Package: com.randy420.tools
 Architecture: iphoneos-arm
-Version: 2.3.8
+Version: 2.3.9
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 3104
+Installed-Size: 3148
 Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools.deb
-Size: 696652
-MD5sum: 2af150809fc5fc7a976f8cdc78ab6327
-SHA1: 2f8876ee00492a0fa45720e2559dbfea03665179
-SHA256: 80f8af6587bdfdc8b1173e7ba9b243dc4d4899d36a18ab21d34dde5c3e03955f
-SHA512: 3691981be918f4433b92b4ea9340ad55a638c532127e8da68b44da17317d5931485a5ab79e3da1378d038ca6f010757ac6abdd2a89175b152d9689a261b36707
+Size: 698766
+MD5sum: 543ee857ff0f6fc2f6c440db62d65ddd
+SHA1: 99ba9dde68519e10ba2f187a0db21ff2e7f4aeb5
+SHA256: 76413ffbefde25e05f98564676f051327b1ec7b9c68567229df5ce5d14a94200
+SHA512: 440ac68835d9eb550d902556fb89f23fdbc9ba567f2084e9b821fe59900b414b98f628e8a8bd97cc5745e287eb37e8b039f473b8688ac8a486611a82abdb6599
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
@@ -21,18 +21,18 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.randy420.tools
 Architecture: iphoneos-arm64
-Version: 2.3.8
+Version: 2.3.9
 Section: System
 Maintainer: Randy420 <randy.skinner@hotmail.com>
-Installed-Size: 2348
+Installed-Size: 2392
 Depends: firmware (<= 15.0) | cy+cpu.arm64v8 | oldabi-xina | oldabi
 Replaces: com.randy420.encrypt
 Filename: ./debs/420Tools_rootless.deb
-Size: 548068
-MD5sum: 3c58d6720802c7edad109d1f4008ad18
-SHA1: 880840bc8964197e9ac36866397205c6d36dd907
-SHA256: 1c7795058b79aa552a614baa830e7b1b2dcf10cb23eccca269b3e8fdc0990425
-SHA512: 4fe7f9c12fa1850fd508f2ffa799be136a47ec4103ff910bd87938d586572987da9fc9fc76d5edcb8122a26a73a5ddc89abdf834997cff4893a0151920ef95ff
+Size: 550502
+MD5sum: 71d7c60809cc66a33bb317aa97e77653
+SHA1: 3408d916cc9bebcd9b77c3e4184a4165b067dc18
+SHA256: d16efcb6b2023a5ccc45f1293e17185b069d9ffa4da9e82bae24e0f8e975eb97
+SHA512: 96bc2a105ae35e287d0ca1432e92248ce71ad8e63dfa5813c44634f153c7c883ad25a2573e695d287c91256153cbce8439a2f6cc7f187918a76323d57bab4990
 Homepage: https://theemeraldisle.family
 Description: 420Tools holds the preferences for all my tweaks as well as shared files for my tweaks.
 Tag: role::hacker
