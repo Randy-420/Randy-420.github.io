@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.25">
+	<title>Support Randy420</title>
+	<style>
+		.grid-container {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 5px;
+			grid-auto-rows: minmax(100px, auto);
+		}
+		.grid-item {
+			background-color: #f1f1f1;
+			padding: 10px;
+			border-radius: 5px;
+			text-align: center;
+			cursor: pointer;
+		}
+		.grid-image {
+			width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="grid-container" id="cryptoGrid">
+		</div>
+
+	<script>
+		const cryptoGrid = document.getElementById('cryptoGrid');
+		const cryptoData = [
+			{ CryptoImage: "support/BTC.png", CryptoType: "BTC", cryptoWalletAddress: "bc1q3kyrq6kc64lk0223a89v9xq85fjqjwmkp2k2m6" },
+			{ CryptoImage: "support/BCH.png", CryptoType: "BCH", cryptoWalletAddress: "qr8nqkz90dceegzse8hn3c96m02n4f39pc5cn52d88" },
+			{ CryptoImage: "support/LTC.png", CryptoType: "LTC", cryptoWalletAddress: "ltc1qlttfhtzgym8pw72j05j5fvkuvl0ar75zd86m0t" },
+			{ CryptoImage: "support/TRX.png", CryptoType: "TRX", cryptoWalletAddress: "TDPyLzYo3SyetkbRTAyNKgnsEE75WuyYFU" },
+			{ CryptoImage: "support/ETH.png", CryptoType: "ETH", cryptoWalletAddress: "0x9C853C390B836dA39820560a66D7B7826A977eE9" },
+			{ CryptoImage: "support/DOGE.png", CryptoType: "DOGE", cryptoWalletAddress: "DJc7mn1tcz6z1LibmiPhfv65bkxZyqha9S" },
+			{ CryptoImage: "support/TON.png", CryptoType: "TON", cryptoWalletAddress: "UQCRrnaWsmDkwq8S3cKaQeHfB-m4C7XXEiL5WEh-JoHhFRzx" },
+			{ CryptoImage: "support/NOT.png", CryptoType: "NOT", cryptoWalletAddress: "UQCRrnaWsmDkwq8S3cKaQeHfB-m4C7XXEiL5WEh-JoHhFRzx" },
+			{ CryptoImage: "support/PI.png", CryptoType: "PI", cryptoWalletAddress: "GDVWICIWPAQLN3XNZWVCR62W2V7UY2USWM44GTQBBYGMCUCLTEB6OD7B" },
+
+		];
+
+		function createCryptoCard(cryptoObj) {
+			const card = document.createElement('div');
+			card.classList.add('grid-item');
+
+			const image = document.createElement('img');
+			image.classList.add('grid-image');
+			image.src = cryptoObj.CryptoImage;
+			card.appendChild(image);
+
+			const type = document.createElement('p');
+			type.textContent = `Crypto: ${cryptoObj.CryptoType}`;
+			card.appendChild(type);
+
+			const address = document.createElement('p');
+			address.textContent = `cryptoWalletAddress: ${cryptoObj.cryptoWalletAddress}`;
+			address.addEventListener('click', () => copyToClipboard(cryptoObj.cryptoWalletAddress));
+			card.appendChild(address);
+
+			return card;
+		}
+
+		function copyToClipboard(text) {
+			const fakeInput = document.createElement('input');
+			fakeInput.value = text;
+			document.body.appendChild(fakeInput);
+			fakeInput.select();
+			document.execCommand('copy');
+			document.body.removeChild(fakeInput);
+
+			console.log('Address copied to clipboard!');
+		}
+
+		cryptoData.forEach(cryptoObj => {
+			const card = createCryptoCard(cryptoObj);
+			cryptoGrid.appendChild(card);
+		});
+	</script>
+</body>
+</html>
