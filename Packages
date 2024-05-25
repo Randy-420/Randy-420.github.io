@@ -212,18 +212,18 @@ Author: Randy420 <randy.skinner@hotmail.com>
 
 Package: com.cpdigitaldarkroom.itsevanesco
 Architecture: iphoneos-arm
-Version: 2021.12
+Version: Version:2024.05.25
 Section: Tweaks
 Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
-Installed-Size: 852
+Installed-Size: 664
 Depends: mobilesubstrate
 Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
 Filename: ./debs/evanesco.deb
-Size: 112122
-MD5sum: c5d525d7d332ae13f347bc540b4fcaa4
-SHA1: 42bef11d510a7bac2388a8d2b74040ef511341ac
-SHA256: f0bcc46d174f85d283085aa25e39518fe031560b158ea721b54dc96d12c0d741
-SHA512: a3f171ce4600fcd5da5a0140b822830664c61faf3c8d2dea919c9a59d0c6d4e8dcb9ab40d806ba7bb37b3241c17a2ee121510fae0ffcc4ff30f007006f38c63d
+Size: 99728
+MD5sum: 17107eb046bf10b68db54ae893115083
+SHA1: d965bb1bef8fd276c525f47d37f5270d1a17accf
+SHA256: a1d78c267215b4e4366392b9036191c302de4fbcb70e9388040601f57ed36b9d
+SHA512: e334f77b742896bd9f4072d5d2893dc3eae7a4b510b6bbd80a96255ffa7a23ff81466ebf1ae680695864f19f7186ade63b0e6332076badf6b0cd8cbf217e2025
 Description: Clear Your Homescreen After Inactivity
 Name: Evanesco!
 Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
@@ -247,6 +247,26 @@ Description: Control Center Modules for Evanesco
 Name: evanescocc
 Depiction: https://Randy-420.GitHub.io/depic/evanescoCc.html
 Author: Randy420
+
+Package: com.cpdigitaldarkroom.itsevanesco
+Architecture: iphoneos-arm64
+Version: Version:2024.05.25
+Section: Tweaks
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Installed-Size: 756
+Depends: mobilesubstrate
+Conflicts: com.cpdigitaldarkroom.evanesco, com.1conan.evanescoxi, com.randy420.evanescocc
+Filename: ./debs/evanesco_rootless.deb
+Size: 100254
+MD5sum: 9fa7e6222a9457e9eba1807307ef58f9
+SHA1: 8a60b78b24be7cbb26eb2d29b10b5ab5bf2fc7e9
+SHA256: 4bd8a52b3e37603eefff128539513a5c2297702d796d7c054aaae9525da7c220
+SHA512: bfbc979cfd69ca10eb829342eb73a5da001d5fca589eb13b0b1f22c1c49af7210a163fee5f4a22a6e87d032946db1a5dd747a7687d0a9e56ecef7bea7f144ea2
+Description: Clear Your Homescreen After Inactivity
+Name: Evanesco!
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Depiction: https://Randy-420.GitHub.io/depic/evanesco.html
+Icon: file:///Library/PreferenceLoader/Preferences/Evanesco@3x.png
 
 Package: ru.rj.ftt
 Architecture: iphoneos-arm
